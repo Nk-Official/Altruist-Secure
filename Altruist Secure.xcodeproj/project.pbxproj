@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		1B0D08DE241B44CC0088AC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */; };
-		1B0D08E0241B44CC0088AC45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D08DF241B44CC0088AC45 /* SceneDelegate.swift */; };
 		1B0D08E2241B44CC0088AC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D08E1241B44CC0088AC45 /* ViewController.swift */; };
 		1B0D08E5241B44CC0088AC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E3241B44CC0088AC45 /* Main.storyboard */; };
 		1B0D08E7241B44D20088AC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E6241B44D20088AC45 /* Assets.xcassets */; };
 		1B0D08EA241B44D20088AC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E8241B44D20088AC45 /* LaunchScreen.storyboard */; };
+		1BC2A72F241B4BA700257979 /* VibrartionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A72E241B4BA700257979 /* VibrartionTest.swift */; };
+		1BC2A731241B578B00257979 /* DeviceTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A730241B578B00257979 /* DeviceTester.swift */; };
+		1BC2A734241B618D00257979 /* SpeakerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A733241B618D00257979 /* SpeakerTest.swift */; };
+		1BC2A738241B67BF00257979 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2A737241B67BF00257979 /* sound1.mp3 */; };
+		1BC2A73B241B6C8000257979 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A73A241B6C8000257979 /* Error.swift */; };
+		1BC2A73D241B82C000257979 /* HeadPhoneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A73C241B82C000257979 /* HeadPhoneTest.swift */; };
+		1BC2A73F241B8B1500257979 /* FlashTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A73E241B8B1500257979 /* FlashTest.swift */; };
+		1BC2A741241B918F00257979 /* CameraTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A740241B918F00257979 /* CameraTest.swift */; };
+		1BC2A743241BA28400257979 /* BluetoothCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A742241BA28400257979 /* BluetoothCheck.swift */; };
+		1BC2A745241BA6EE00257979 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A744241BA6EE00257979 /* Global.swift */; };
+		1BC2A749241BAA8500257979 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC2A748241BAA8500257979 /* ExternalAccessory.framework */; };
+		1BC2A74B241BAC4C00257979 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC2A74A241BAC4C00257979 /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B0D08DA241B44CC0088AC45 /* Altruist Secure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altruist Secure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B0D08DF241B44CC0088AC45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1B0D08E1241B44CC0088AC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B0D08E4241B44CC0088AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B0D08E6241B44D20088AC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0D08E9241B44D20088AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B0D08EB241B44D20088AC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC2A72E241B4BA700257979 /* VibrartionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrartionTest.swift; sourceTree = "<group>"; };
+		1BC2A730241B578B00257979 /* DeviceTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTester.swift; sourceTree = "<group>"; };
+		1BC2A733241B618D00257979 /* SpeakerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerTest.swift; sourceTree = "<group>"; };
+		1BC2A735241B63C600257979 /* AltruistSecureBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AltruistSecureBridgingHeader.h; sourceTree = "<group>"; };
+		1BC2A737241B67BF00257979 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		1BC2A73A241B6C8000257979 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		1BC2A73C241B82C000257979 /* HeadPhoneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhoneTest.swift; sourceTree = "<group>"; };
+		1BC2A73E241B8B1500257979 /* FlashTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashTest.swift; sourceTree = "<group>"; };
+		1BC2A740241B918F00257979 /* CameraTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTest.swift; sourceTree = "<group>"; };
+		1BC2A742241BA28400257979 /* BluetoothCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCheck.swift; sourceTree = "<group>"; };
+		1BC2A744241BA6EE00257979 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		1BC2A746241BAA8400257979 /* Altruist Secure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Altruist Secure.entitlements"; sourceTree = "<group>"; };
+		1BC2A748241BAA8500257979 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		1BC2A74A241BAC4C00257979 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC2A749241BAA8500257979 /* ExternalAccessory.framework in Frameworks */,
+				1BC2A74B241BAC4C00257979 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +68,7 @@
 			children = (
 				1B0D08DC241B44CC0088AC45 /* Altruist Secure */,
 				1B0D08DB241B44CC0088AC45 /* Products */,
+				1BC2A747241BAA8500257979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,67 @@
 		1B0D08DC241B44CC0088AC45 /* Altruist Secure */ = {
 			isa = PBXGroup;
 			children = (
+				1BC2A746241BAA8400257979 /* Altruist Secure.entitlements */,
+				1BC2A739241B6C6D00257979 /* Utility */,
+				1BC2A736241B651F00257979 /* SoundFile */,
+				1BC2A72D241B4B8C00257979 /* Tests */,
 				1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */,
-				1B0D08DF241B44CC0088AC45 /* SceneDelegate.swift */,
 				1B0D08E1241B44CC0088AC45 /* ViewController.swift */,
+				1BC2A735241B63C600257979 /* AltruistSecureBridgingHeader.h */,
 				1B0D08E3241B44CC0088AC45 /* Main.storyboard */,
 				1B0D08E6241B44D20088AC45 /* Assets.xcassets */,
 				1B0D08E8241B44D20088AC45 /* LaunchScreen.storyboard */,
 				1B0D08EB241B44D20088AC45 /* Info.plist */,
 			);
 			path = "Altruist Secure";
+			sourceTree = "<group>";
+		};
+		1BC2A72D241B4B8C00257979 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2A732241B616C00257979 /* Parent */,
+				1BC2A72E241B4BA700257979 /* VibrartionTest.swift */,
+				1BC2A733241B618D00257979 /* SpeakerTest.swift */,
+				1BC2A73C241B82C000257979 /* HeadPhoneTest.swift */,
+				1BC2A73E241B8B1500257979 /* FlashTest.swift */,
+				1BC2A740241B918F00257979 /* CameraTest.swift */,
+				1BC2A742241BA28400257979 /* BluetoothCheck.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1BC2A732241B616C00257979 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2A730241B578B00257979 /* DeviceTester.swift */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		1BC2A736241B651F00257979 /* SoundFile */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2A737241B67BF00257979 /* sound1.mp3 */,
+			);
+			path = SoundFile;
+			sourceTree = "<group>";
+		};
+		1BC2A739241B6C6D00257979 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2A73A241B6C8000257979 /* Error.swift */,
+				1BC2A744241BA6EE00257979 /* Global.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1BC2A747241BAA8500257979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2A74A241BAC4C00257979 /* NetworkExtension.framework */,
+				1BC2A748241BAA8500257979 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +206,7 @@
 			files = (
 				1B0D08EA241B44D20088AC45 /* LaunchScreen.storyboard in Resources */,
 				1B0D08E7241B44D20088AC45 /* Assets.xcassets in Resources */,
+				1BC2A738241B67BF00257979 /* sound1.mp3 in Resources */,
 				1B0D08E5241B44CC0088AC45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC2A743241BA28400257979 /* BluetoothCheck.swift in Sources */,
+				1BC2A73F241B8B1500257979 /* FlashTest.swift in Sources */,
+				1BC2A731241B578B00257979 /* DeviceTester.swift in Sources */,
+				1BC2A734241B618D00257979 /* SpeakerTest.swift in Sources */,
+				1BC2A741241B918F00257979 /* CameraTest.swift in Sources */,
 				1B0D08E2241B44CC0088AC45 /* ViewController.swift in Sources */,
+				1BC2A745241BA6EE00257979 /* Global.swift in Sources */,
+				1BC2A73D241B82C000257979 /* HeadPhoneTest.swift in Sources */,
+				1BC2A72F241B4BA700257979 /* VibrartionTest.swift in Sources */,
+				1BC2A73B241B6C8000257979 /* Error.swift in Sources */,
 				1B0D08DE241B44CC0088AC45 /* AppDelegate.swift in Sources */,
-				1B0D08E0241B44CC0088AC45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +372,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Altruist Secure/Altruist Secure.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = "Altruist Secure/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "softProdigy.Altruist-Secure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softProdigy.PracticeNK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Altruist Secure/AltruistSecureBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -302,15 +393,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Altruist Secure/Altruist Secure.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = "Altruist Secure/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "softProdigy.Altruist-Secure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.softProdigy.PracticeNK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Altruist Secure/AltruistSecureBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

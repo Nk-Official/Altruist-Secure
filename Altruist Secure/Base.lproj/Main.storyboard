@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,138 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Altruist_Secure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2TL-eA-rGJ">
+                                <rect key="frame" x="20" y="64" width="374" height="500"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MRy-jS-4E4">
+                                        <rect key="frame" x="5" y="5" width="396" height="120"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vh6-ZC-elm">
+                                                <rect key="frame" x="0.0" y="0.0" width="234" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9of-Uv-zMc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="Oj7-60-reh"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Vibrate">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="vibrateTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L9c-LZ-6JG"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgH-PB-jNA">
+                                                        <rect key="frame" x="70" y="0.0" width="56" height="50"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.36470588240000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <state key="normal" title="Speaker">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="speakerTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IuI-Bz-v8c"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5I4-rD-P6d">
+                                                        <rect key="frame" x="146" y="0.0" width="88" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="HeadPhones">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="headphoneTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0EW-hD-USN"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hdz-oJ-m0g">
+                                                <rect key="frame" x="0.0" y="70" width="396" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k57-r3-e8p">
+                                                        <rect key="frame" x="0.0" y="0.0" width="37" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="g1H-D8-IZk"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Flash">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="flashTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ye5-u6-ySV"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI1-mp-E6F">
+                                                        <rect key="frame" x="57" y="0.0" width="91" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="H6K-F8-qG6"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Back Camera">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="backCamTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QAo-HG-wb8"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ce7-qK-x1d">
+                                                        <rect key="frame" x="168" y="0.0" width="94" height="50"/>
+                                                        <color key="backgroundColor" red="0.75404002568493156" green="0.049684289383561647" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="48R-aS-X9H"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Front Camera">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="frontCamTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mX2-bU-ZIC"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVE-aG-KSY">
+                                                        <rect key="frame" x="282" y="0.0" width="114" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="bl1-S2-nRZ"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Bluetooth Check">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="bluetothTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s2w-Na-pK3"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="9TL-59-9R0"/>
+                                    <constraint firstAttribute="trailing" secondItem="MRy-jS-4E4" secondAttribute="trailing" constant="5" id="INW-Ff-OdN"/>
+                                    <constraint firstItem="MRy-jS-4E4" firstAttribute="top" secondItem="2TL-eA-rGJ" secondAttribute="top" constant="5" id="USn-QR-dE6"/>
+                                    <constraint firstAttribute="bottom" secondItem="MRy-jS-4E4" secondAttribute="bottom" constant="5" id="aKa-2A-sua"/>
+                                    <constraint firstItem="MRy-jS-4E4" firstAttribute="leading" secondItem="2TL-eA-rGJ" secondAttribute="leading" constant="5" id="tql-Yw-v5x"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Fbu-H1-MKn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="qZd-dI-5ZO"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2TL-eA-rGJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="KCM-VW-imz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2TL-eA-rGJ" secondAttribute="trailing" constant="20" id="gsV-G7-9i8"/>
+                            <constraint firstItem="2TL-eA-rGJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lE9-tW-vPE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132" y="88"/>
         </scene>
     </scenes>
 </document>
