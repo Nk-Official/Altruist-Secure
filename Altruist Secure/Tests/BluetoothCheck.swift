@@ -13,11 +13,15 @@ class BluetoothCheck: NSObject, DeviceTester{
     //If the bluetooth is turned off, CBCentralManager can’t be instantiated and the system will automatically throw a dialog prompt asking you to enable it.
     var bluetoothManager: CBCentralManager!
     var bluetoothTestSuccess: Closure?
-   var bluetoothTestFail: Closure?
-
+    var bluetoothTestFail: Closure?
+    override init() {
+        bluetoothManager = CBCentralManager()
+        super.init()
+        bluetoothManager.delegate = self
+    }
     
     func startTest(_ viewController: UIViewController) {
-        bluetoothManager = CBCentralManager(delegate: self, queue: nil)
+        
     }
     
 }

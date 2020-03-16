@@ -12,6 +12,12 @@
 		1B0D08E5241B44CC0088AC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E3241B44CC0088AC45 /* Main.storyboard */; };
 		1B0D08E7241B44D20088AC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E6241B44D20088AC45 /* Assets.xcassets */; };
 		1B0D08EA241B44D20088AC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E8241B44D20088AC45 /* LaunchScreen.storyboard */; };
+		1B19C214241F38F00037B804 /* SensorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19C213241F38F00037B804 /* SensorTest.swift */; };
+		1B19C216241F4BEE0037B804 /* DisplayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19C215241F4BEE0037B804 /* DisplayTest.swift */; };
+		1B19C218241F4D210037B804 /* DisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19C217241F4D210037B804 /* DisplayTestViewController.swift */; };
+		1B19C21A241F5C8A0037B804 /* ExDisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19C219241F5C8A0037B804 /* ExDisplayTestViewController.swift */; };
+		1B847168241F907B00E4B4BD /* SimTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B847167241F907B00E4B4BD /* SimTest.swift */; };
+		1B84716A241F9EF800E4B4BD /* WifiCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B847169241F9EF800E4B4BD /* WifiCheck.swift */; };
 		1BC2A72F241B4BA700257979 /* VibrartionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A72E241B4BA700257979 /* VibrartionTest.swift */; };
 		1BC2A731241B578B00257979 /* DeviceTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A730241B578B00257979 /* DeviceTester.swift */; };
 		1BC2A734241B618D00257979 /* SpeakerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A733241B618D00257979 /* SpeakerTest.swift */; };
@@ -34,6 +40,12 @@
 		1B0D08E6241B44D20088AC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0D08E9241B44D20088AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B0D08EB241B44D20088AC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B19C213241F38F00037B804 /* SensorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorTest.swift; sourceTree = "<group>"; };
+		1B19C215241F4BEE0037B804 /* DisplayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTest.swift; sourceTree = "<group>"; };
+		1B19C217241F4D210037B804 /* DisplayTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTestViewController.swift; sourceTree = "<group>"; };
+		1B19C219241F5C8A0037B804 /* ExDisplayTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDisplayTestViewController.swift; sourceTree = "<group>"; };
+		1B847167241F907B00E4B4BD /* SimTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimTest.swift; sourceTree = "<group>"; };
+		1B847169241F9EF800E4B4BD /* WifiCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiCheck.swift; sourceTree = "<group>"; };
 		1BC2A72E241B4BA700257979 /* VibrartionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrartionTest.swift; sourceTree = "<group>"; };
 		1BC2A730241B578B00257979 /* DeviceTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTester.swift; sourceTree = "<group>"; };
 		1BC2A733241B618D00257979 /* SpeakerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerTest.swift; sourceTree = "<group>"; };
@@ -89,6 +101,8 @@
 				1BC2A72D241B4B8C00257979 /* Tests */,
 				1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */,
 				1B0D08E1241B44CC0088AC45 /* ViewController.swift */,
+				1B19C217241F4D210037B804 /* DisplayTestViewController.swift */,
+				1B19C219241F5C8A0037B804 /* ExDisplayTestViewController.swift */,
 				1BC2A735241B63C600257979 /* AltruistSecureBridgingHeader.h */,
 				1B0D08E3241B44CC0088AC45 /* Main.storyboard */,
 				1B0D08E6241B44D20088AC45 /* Assets.xcassets */,
@@ -108,6 +122,10 @@
 				1BC2A73E241B8B1500257979 /* FlashTest.swift */,
 				1BC2A740241B918F00257979 /* CameraTest.swift */,
 				1BC2A742241BA28400257979 /* BluetoothCheck.swift */,
+				1B19C213241F38F00037B804 /* SensorTest.swift */,
+				1B19C215241F4BEE0037B804 /* DisplayTest.swift */,
+				1B847167241F907B00E4B4BD /* SimTest.swift */,
+				1B847169241F9EF800E4B4BD /* WifiCheck.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -219,14 +237,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC2A743241BA28400257979 /* BluetoothCheck.swift in Sources */,
+				1B847168241F907B00E4B4BD /* SimTest.swift in Sources */,
 				1BC2A73F241B8B1500257979 /* FlashTest.swift in Sources */,
 				1BC2A731241B578B00257979 /* DeviceTester.swift in Sources */,
 				1BC2A734241B618D00257979 /* SpeakerTest.swift in Sources */,
 				1BC2A741241B918F00257979 /* CameraTest.swift in Sources */,
+				1B84716A241F9EF800E4B4BD /* WifiCheck.swift in Sources */,
+				1B19C218241F4D210037B804 /* DisplayTestViewController.swift in Sources */,
+				1B19C214241F38F00037B804 /* SensorTest.swift in Sources */,
 				1B0D08E2241B44CC0088AC45 /* ViewController.swift in Sources */,
 				1BC2A745241BA6EE00257979 /* Global.swift in Sources */,
 				1BC2A73D241B82C000257979 /* HeadPhoneTest.swift in Sources */,
+				1B19C21A241F5C8A0037B804 /* ExDisplayTestViewController.swift in Sources */,
 				1BC2A72F241B4BA700257979 /* VibrartionTest.swift in Sources */,
+				1B19C216241F4BEE0037B804 /* DisplayTest.swift in Sources */,
 				1BC2A73B241B6C8000257979 /* Error.swift in Sources */,
 				1B0D08DE241B44CC0088AC45 /* AppDelegate.swift in Sources */,
 			);
@@ -376,7 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = "Altruist Secure/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,7 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = "Altruist Secure/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

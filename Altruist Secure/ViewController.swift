@@ -55,7 +55,58 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func bluetothTest(_ sender: UIButton){
-        bluetoothCheck.startTest(self)
+        self.bluetoothCheck = BluetoothCheck()
+        setBlueToothTestCallback()
+        
+    }
+    @IBAction func proximityTest(_ sender: UIButton){
+        let proximityAvailable = sensorTest.isProximitySensorAvailable()
+        switch proximityAvailable {
+        case true:
+            print("have proximity")
+        default:
+            print("no proximity")
+        }
+    }
+    @IBAction func lighSensorTest(_ sender: UIButton){
+        
+    }
+    @IBAction func gravitySensorTest(_ sender: UIButton){
+        let gravitySensorAvailable = sensorTest.isGravitySensorAvailable()
+        switch gravitySensorAvailable {
+        case true:
+            print("have Gravity sensor")
+        default:
+            print("no Gravity sensor")
+        }
+    }
+    @IBAction func magneticSensorTest(_ sender: UIButton){
+        let magneticSensorAvailable = sensorTest.isMagneticSensorAvailable()
+        switch magneticSensorAvailable {
+        case true:
+            print("have magnetic sensor")
+        default:
+            print("no magnetic sensor")
+        }
+    }
+    @IBAction func displayTest(_ sender: UIButton){
+        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DisplayTestViewController")
+        viewController.modalPresentationStyle = .fullScreen
+        present(viewController, animated: true, completion: nil)
+    }
+    @IBAction func simTest(_ sender: UIButton){
+        let available = simTest.isSimAvailable()
+        switch available {
+        case true:print("sim is  available")
+        case false:print("no sim found in iPhone")
+        }
+    }
+    @IBAction func wifiTest(_ sender: UIButton){
+        let wifiAvailable = wifiCheck.checkWifi()
+        switch wifiAvailable {
+        case true:print("wifi is connected")
+        case false:print("wifi not connected to any network")
+        }
     }
     //MARK: - VARIABLE
     
@@ -64,11 +115,13 @@ class ViewController: UIViewController {
     let headPhoneTest = HeadPhoneTest()
     let flashTest = FlashTest()
     let cameraTest = CameraTest()
-    let bluetoothCheck = BluetoothCheck()
-
+    var bluetoothCheck : BluetoothCheck!
+    let sensorTest = SensorTest(test: .proximity)
+    let simTest = SimTest()
+    let wifiCheck = WifiCheck()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-    
     
     }
     
