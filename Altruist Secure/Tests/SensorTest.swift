@@ -24,13 +24,14 @@ class SensorTest {
     init(test sensor : Sensor){
         self.sensor = sensor
     }
-    
+    //MARK: - PROXIMITY
     func isProximitySensorAvailable()->Bool{
         
         let device = UIDevice.current
         device.isProximityMonitoringEnabled = true
         return device.isProximityMonitoringEnabled
     }
+    //MARK: - GRAVITY
     func isGravitySensorAvailable()->Bool{
         if motionManager.isAccelerometerAvailable{
             if motionManager.isGyroAvailable{
@@ -39,6 +40,7 @@ class SensorTest {
         }
         return false
     }
+    //MARK: - MAGNETIC
     func isMagneticSensorAvailable()->Bool{
         return motionManager.isMagnetometerAvailable
     }

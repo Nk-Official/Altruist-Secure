@@ -111,7 +111,7 @@ extension DisplayTestViewController{
        // left side points
        while true {
         let x = view.frame.width - diameter - 20
-        let dY = ((diameter+gapBetweenDots)*CGFloat(i))+y
+        let dY = ((diameter+gapBetweenDots)*CGFloat(i))
         
         let position = CGPoint(x: x, y: dY)
         let transformedPosition = position.applying(CGAffineTransform(rotationAngle: .pi/6))

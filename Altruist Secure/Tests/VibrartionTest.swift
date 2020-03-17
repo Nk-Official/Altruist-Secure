@@ -8,6 +8,7 @@
 
 import AudioToolbox.AudioServices
 import AVKit
+
 class VibrartionTest: DeviceTester {
     
     

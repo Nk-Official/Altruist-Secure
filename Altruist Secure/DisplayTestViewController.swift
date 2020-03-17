@@ -18,6 +18,7 @@ class DisplayTestViewController: UIViewController {
     
     @IBAction func done(_ sender: UIButton){
         print(dots.count,"\n",dots)
+        dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

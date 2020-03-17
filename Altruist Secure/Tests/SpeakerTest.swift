@@ -53,7 +53,7 @@ class SpeakerTest : NSObject, DeviceTester{
     }
 }
 
-
+//MARK: - AVAudioPlayerDelegate
 extension SpeakerTest : AVAudioPlayerDelegate{
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         print("finish playing")
