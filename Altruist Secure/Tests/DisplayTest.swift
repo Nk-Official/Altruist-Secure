@@ -9,13 +9,6 @@
 import UIKit
 class DisplayTest {
     
-    
-    func abc(callback: @autoclosure ()->Int)->Int{
-        return  callback()
-    }
-    
-    func callabc()
-    
 }
 
 extension DisplayTest {
