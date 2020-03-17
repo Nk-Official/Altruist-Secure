@@ -8,22 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1B0D08DE241B44CC0088AC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */; };
-		1B0D08E0241B44CC0088AC45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D08DF241B44CC0088AC45 /* SceneDelegate.swift */; };
 		1B0D08E2241B44CC0088AC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D08E1241B44CC0088AC45 /* ViewController.swift */; };
 		1B0D08E5241B44CC0088AC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E3241B44CC0088AC45 /* Main.storyboard */; };
 		1B0D08E7241B44D20088AC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E6241B44D20088AC45 /* Assets.xcassets */; };
 		1B0D08EA241B44D20088AC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D08E8241B44D20088AC45 /* LaunchScreen.storyboard */; };
+		1B2A3A212420F1D300A303F0 /* FlashTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A3A202420F1D300A303F0 /* FlashTest.swift */; };
+		1B2A3A242420F1DA00A303F0 /* DeviceTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A3A232420F1DA00A303F0 /* DeviceTester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B0D08DA241B44CC0088AC45 /* Altruist Secure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altruist Secure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B0D08DF241B44CC0088AC45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1B0D08E1241B44CC0088AC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B0D08E4241B44CC0088AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B0D08E6241B44D20088AC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B0D08E9241B44D20088AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B0D08EB241B44D20088AC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2A3A202420F1D300A303F0 /* FlashTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashTest.swift; sourceTree = "<group>"; };
+		1B2A3A232420F1DA00A303F0 /* DeviceTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTester.swift; sourceTree = "<group>"; };
+		1B2A3A252420F1F400A303F0 /* AltruistSecureBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltruistSecureBridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +59,33 @@
 		1B0D08DC241B44CC0088AC45 /* Altruist Secure */ = {
 			isa = PBXGroup;
 			children = (
+				1B2A3A222420F1DA00A303F0 /* Parent */,
+				1B2A3A1F2420F1C300A303F0 /* Tests */,
 				1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */,
-				1B0D08DF241B44CC0088AC45 /* SceneDelegate.swift */,
 				1B0D08E1241B44CC0088AC45 /* ViewController.swift */,
 				1B0D08E3241B44CC0088AC45 /* Main.storyboard */,
 				1B0D08E6241B44D20088AC45 /* Assets.xcassets */,
 				1B0D08E8241B44D20088AC45 /* LaunchScreen.storyboard */,
 				1B0D08EB241B44D20088AC45 /* Info.plist */,
+				1B2A3A252420F1F400A303F0 /* AltruistSecureBridgingHeader.h */,
 			);
 			path = "Altruist Secure";
+			sourceTree = "<group>";
+		};
+		1B2A3A1F2420F1C300A303F0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A3A202420F1D300A303F0 /* FlashTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1B2A3A222420F1DA00A303F0 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A3A232420F1DA00A303F0 /* DeviceTester.swift */,
+			);
+			path = Parent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2A3A212420F1D300A303F0 /* FlashTest.swift in Sources */,
 				1B0D08E2241B44CC0088AC45 /* ViewController.swift in Sources */,
+				1B2A3A242420F1DA00A303F0 /* DeviceTester.swift in Sources */,
 				1B0D08DE241B44CC0088AC45 /* AppDelegate.swift in Sources */,
-				1B0D08E0241B44CC0088AC45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +315,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "softProdigy.Altruist-Secure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Altruist Secure/AltruistSecureBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -311,6 +334,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "softProdigy.Altruist-Secure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Altruist Secure/AltruistSecureBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

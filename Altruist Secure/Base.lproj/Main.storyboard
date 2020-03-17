@@ -1,24 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hnX-lz-0Y0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="euv-c3-rEB">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="hnX-lz-0Y0" customClass="ViewController" customModule="Altruist_Secure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TDt-Xf-9uM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AK4-fv-0fX">
+                                <rect key="frame" x="20" y="64" width="374" height="500"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ciI-gy-cpW">
+                                        <rect key="frame" x="5" y="5" width="77" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GYi-M8-ElU">
+                                                <rect key="frame" x="0.0" y="0.0" width="77" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgd-MZ-whE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="IXU-7k-VMq"/>
+                                                        </constraints>
+                                                        <state key="normal" title="      Flash    ">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="flashTest:" destination="hnX-lz-0Y0" eventType="touchUpInside" id="8TM-A7-vJB"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ciI-gy-cpW" firstAttribute="top" secondItem="AK4-fv-0fX" secondAttribute="top" constant="5" id="19L-R1-eMQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ciI-gy-cpW" secondAttribute="bottom" constant="5" id="Com-O5-CRt"/>
+                                    <constraint firstAttribute="height" constant="500" id="E6Z-Uv-sBo"/>
+                                    <constraint firstItem="ciI-gy-cpW" firstAttribute="leading" secondItem="AK4-fv-0fX" secondAttribute="leading" constant="5" id="h8w-mJ-SXH"/>
+                                    <constraint firstAttribute="trailing" secondItem="ciI-gy-cpW" secondAttribute="trailing" constant="5" id="zZ2-HW-tQ6"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xQ9-X8-BNi"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="WEE-pr-vc8"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vjy-Lf-l2S" firstAttribute="trailing" secondItem="AK4-fv-0fX" secondAttribute="trailing" constant="20" id="5vB-Cz-HRX"/>
+                            <constraint firstItem="AK4-fv-0fX" firstAttribute="top" secondItem="vjy-Lf-l2S" secondAttribute="top" constant="20" id="RlF-TY-FdB"/>
+                            <constraint firstItem="AK4-fv-0fX" firstAttribute="leading" secondItem="vjy-Lf-l2S" secondAttribute="leading" constant="20" id="SaU-nt-KWX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vjy-Lf-l2S"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s2p-zF-WnC" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132" y="88"/>
         </scene>
     </scenes>
 </document>

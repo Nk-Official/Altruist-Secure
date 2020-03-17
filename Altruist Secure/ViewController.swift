@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func flashTest(_ sender: UIButton){
+        if flashTest.checkFlash(){
+            print("flash is working fine")
+        }
+        else{
+            print("flash not working")
+        }
+    }
+    let flashTest = FlashTest()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
