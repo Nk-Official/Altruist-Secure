@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FpF-dz-jXm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,6 +8,86 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Face Lock View Controller-->
+        <scene sceneID="N5g-u3-PnP">
+            <objects>
+                <viewController id="LH6-gl-vYm" customClass="FaceLockViewController" customModule="Altruist_Secure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5kz-ED-Pzv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="XMi-cs-aXo">
+                                <rect key="frame" x="107" y="184" width="200" height="170"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUu-Md-1Fd">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="70"/>
+                                        <color key="backgroundColor" red="0.23529411759999999" green="0.63921568630000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="cXa-Qb-xll"/>
+                                            <constraint firstAttribute="height" constant="70" id="gg6-kC-SCS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Facelock">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="facelockTest:" destination="LH6-gl-vYm" eventType="touchUpInside" id="BbC-vU-egS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REz-gy-7Kt">
+                                        <rect key="frame" x="0.0" y="100" width="200" height="70"/>
+                                        <color key="backgroundColor" red="0.23529411759999999" green="0.63921568630000003" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Z4C-xG-pp8"/>
+                                            <constraint firstAttribute="height" constant="70" id="rKV-Vr-VfO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Fingerprint">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="touchidTest:" destination="LH6-gl-vYm" eventType="touchUpInside" id="MwW-fe-8tf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zSO-RM-t51">
+                                <rect key="frame" x="16" y="164" width="382" height="10"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GC-8b-YIe">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoR-6n-bYH">
+                                        <rect key="frame" x="0.0" y="10" width="382" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JdR-BM-aoN" firstAttribute="trailing" secondItem="zSO-RM-t51" secondAttribute="trailing" constant="16" id="03X-vf-1Aw"/>
+                            <constraint firstItem="zSO-RM-t51" firstAttribute="centerX" secondItem="5kz-ED-Pzv" secondAttribute="centerX" id="7Sh-qx-0Cm"/>
+                            <constraint firstItem="XMi-cs-aXo" firstAttribute="top" secondItem="zSO-RM-t51" secondAttribute="bottom" constant="10" id="EI4-j4-Psz"/>
+                            <constraint firstItem="XMi-cs-aXo" firstAttribute="centerX" secondItem="5kz-ED-Pzv" secondAttribute="centerX" id="W8v-ZG-ZAV"/>
+                            <constraint firstItem="XMi-cs-aXo" firstAttribute="centerY" secondItem="5kz-ED-Pzv" secondAttribute="centerY" multiplier="0.6" id="sya-CP-wEe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JdR-BM-aoN"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabl" destination="5GC-8b-YIe" id="Rsc-II-7Ze"/>
+                        <outlet property="resultStatusLabl" destination="XoR-6n-bYH" id="whm-rz-TFJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H21-MR-4Ev" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-643" y="40"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -20,7 +100,7 @@
                                 <rect key="frame" x="20" y="64" width="374" height="500"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MRy-jS-4E4">
-                                        <rect key="frame" x="5" y="5" width="396" height="260"/>
+                                        <rect key="frame" x="5" y="5" width="396" height="310"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vh6-ZC-elm">
                                                 <rect key="frame" x="0.0" y="0.0" width="234" height="50"/>
@@ -213,6 +293,21 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-Bk-jzS">
+                                                <rect key="frame" x="0.0" y="280" width="149" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xou-gz-65C">
+                                                        <rect key="frame" x="0.0" y="0.0" width="149" height="30"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.36470588240000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <state key="normal" title="        Facelock              ">
+                                                            <color key="titleColor" red="0.95677894350000003" green="0.95691627260000001" blue="0.956749022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="facelockTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PwO-DB-4Wl"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -294,6 +389,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="04I-6M-PNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="863.768115942029" y="87.723214285714278"/>
+        </scene>
+        <!--Info Web View Controller-->
+        <scene sceneID="E8n-fq-eJ6">
+            <objects>
+                <viewController id="FpF-dz-jXm" customClass="InfoWebViewController" customModule="Altruist_Secure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iqt-fy-CmK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfD-WG-3Ag">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kfD-WG-3Ag" firstAttribute="top" secondItem="ura-xT-wiV" secondAttribute="top" id="2HT-ob-XNJ"/>
+                            <constraint firstItem="kfD-WG-3Ag" firstAttribute="leading" secondItem="ura-xT-wiV" secondAttribute="leading" id="68Q-6z-pPA"/>
+                            <constraint firstItem="ura-xT-wiV" firstAttribute="bottom" secondItem="kfD-WG-3Ag" secondAttribute="bottom" id="KGg-3V-Z3e"/>
+                            <constraint firstItem="ura-xT-wiV" firstAttribute="trailing" secondItem="kfD-WG-3Ag" secondAttribute="trailing" id="Mhv-cv-CyH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ura-xT-wiV"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="kfD-WG-3Ag" id="YJs-KU-6e5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndP-OG-JBj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582" y="151"/>
         </scene>
     </scenes>
 </document>

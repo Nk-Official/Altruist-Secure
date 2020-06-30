@@ -30,6 +30,11 @@
 		1BC2A745241BA6EE00257979 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2A744241BA6EE00257979 /* Global.swift */; };
 		1BC2A749241BAA8500257979 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC2A748241BAA8500257979 /* ExternalAccessory.framework */; };
 		1BC2A74B241BAC4C00257979 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC2A74A241BAC4C00257979 /* NetworkExtension.framework */; };
+		CE1315FC248A04F300597265 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1315FB248A04F300597265 /* LocationTest.swift */; };
+		CE1315FE248A121100597265 /* InfoWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1315FD248A121100597265 /* InfoWebViewController.swift */; };
+		CE4DF30A24739A2800E35709 /* SolidLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DF30924739A2700E35709 /* SolidLineView.swift */; };
+		CE4DF30C24739B1400E35709 /* FaceLockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DF30B24739B1400E35709 /* FaceLockTest.swift */; };
+		CE4DF30E2473B5FE00E35709 /* FaceLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DF30D2473B5FE00E35709 /* FaceLockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,11 @@
 		1BC2A746241BAA8400257979 /* Altruist Secure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Altruist Secure.entitlements"; sourceTree = "<group>"; };
 		1BC2A748241BAA8500257979 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		1BC2A74A241BAC4C00257979 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		CE1315FB248A04F300597265 /* LocationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTest.swift; sourceTree = "<group>"; };
+		CE1315FD248A121100597265 /* InfoWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWebViewController.swift; sourceTree = "<group>"; };
+		CE4DF30924739A2700E35709 /* SolidLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidLineView.swift; sourceTree = "<group>"; };
+		CE4DF30B24739B1400E35709 /* FaceLockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockTest.swift; sourceTree = "<group>"; };
+		CE4DF30D2473B5FE00E35709 /* FaceLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,11 @@
 				1BC2A72D241B4B8C00257979 /* Tests */,
 				1B0D08DD241B44CC0088AC45 /* AppDelegate.swift */,
 				1B0D08E1241B44CC0088AC45 /* ViewController.swift */,
+				CE4DF30D2473B5FE00E35709 /* FaceLockViewController.swift */,
 				1B19C217241F4D210037B804 /* DisplayTestViewController.swift */,
+				CE1315FD248A121100597265 /* InfoWebViewController.swift */,
 				1B19C219241F5C8A0037B804 /* ExDisplayTestViewController.swift */,
+				CE4DF30924739A2700E35709 /* SolidLineView.swift */,
 				1BC2A735241B63C600257979 /* AltruistSecureBridgingHeader.h */,
 				1B0D08E3241B44CC0088AC45 /* Main.storyboard */,
 				1B0D08E6241B44D20088AC45 /* Assets.xcassets */,
@@ -126,6 +139,8 @@
 				1B19C215241F4BEE0037B804 /* DisplayTest.swift */,
 				1B847167241F907B00E4B4BD /* SimTest.swift */,
 				1B847169241F9EF800E4B4BD /* WifiCheck.swift */,
+				CE4DF30B24739B1400E35709 /* FaceLockTest.swift */,
+				CE1315FB248A04F300597265 /* LocationTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -241,15 +256,20 @@
 				1BC2A73F241B8B1500257979 /* FlashTest.swift in Sources */,
 				1BC2A731241B578B00257979 /* DeviceTester.swift in Sources */,
 				1BC2A734241B618D00257979 /* SpeakerTest.swift in Sources */,
+				CE1315FE248A121100597265 /* InfoWebViewController.swift in Sources */,
+				CE1315FC248A04F300597265 /* LocationTest.swift in Sources */,
 				1BC2A741241B918F00257979 /* CameraTest.swift in Sources */,
 				1B84716A241F9EF800E4B4BD /* WifiCheck.swift in Sources */,
 				1B19C218241F4D210037B804 /* DisplayTestViewController.swift in Sources */,
+				CE4DF30C24739B1400E35709 /* FaceLockTest.swift in Sources */,
 				1B19C214241F38F00037B804 /* SensorTest.swift in Sources */,
 				1B0D08E2241B44CC0088AC45 /* ViewController.swift in Sources */,
 				1BC2A745241BA6EE00257979 /* Global.swift in Sources */,
 				1BC2A73D241B82C000257979 /* HeadPhoneTest.swift in Sources */,
 				1B19C21A241F5C8A0037B804 /* ExDisplayTestViewController.swift in Sources */,
+				CE4DF30E2473B5FE00E35709 /* FaceLockViewController.swift in Sources */,
 				1BC2A72F241B4BA700257979 /* VibrartionTest.swift in Sources */,
+				CE4DF30A24739A2800E35709 /* SolidLineView.swift in Sources */,
 				1B19C216241F4BEE0037B804 /* DisplayTest.swift in Sources */,
 				1BC2A73B241B6C8000257979 /* Error.swift in Sources */,
 				1B0D08DE241B44CC0088AC45 /* AppDelegate.swift in Sources */,
@@ -397,7 +417,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Altruist Secure/Altruist Secure.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = "Altruist Secure/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -405,8 +426,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.softProdigy.PracticeNK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureFlutter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = iPhoneHealthProv_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "Altruist Secure/AltruistSecureBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -418,7 +440,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Altruist Secure/Altruist Secure.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4Q92Z86L4P;
 				INFOPLIST_FILE = "Altruist Secure/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -426,8 +449,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.softProdigy.PracticeNK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureFlutter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = iPhoneHealthProv_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "Altruist Secure/AltruistSecureBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+let locationTest = LocationTest()
     //MARK: -   IBACTION
     @IBAction func vibrateTest(_ sender: UIButton){// turn on vibration from iphone settings
-        vibrateTest.startTest(self)
+//        vibrateTest.startTest(self)
+        locationTest.testResult = {(result) in
+            print("location test resut",result)
+            
+        }
+        locationTest.start()
+        
     }
     @IBAction func speakerTest(_ sender: UIButton){// turn on sounds from iphone settings
         speakerTest.startTest(self)
@@ -108,6 +114,9 @@ class ViewController: UIViewController {
         case false:print("wifi not connected to any network")
         }
     }
+    @IBAction func facelockTest(_ sender: UIButton){
+        facelockTest.start()
+    }
     //MARK: - VARIABLE
     
     let vibrateTest = VibrartionTest()
@@ -119,6 +128,7 @@ class ViewController: UIViewController {
     let sensorTest = SensorTest(test: .proximity)
     let simTest = SimTest()
     let wifiCheck = WifiCheck()
+    let facelockTest = FaceLockTest()
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -33,7 +33,20 @@ extension BluetoothCheck: CBCentralManagerDelegate{
         case .unsupported,.unknown:bluetoothTestFail?()
         default:bluetoothTestSuccess?()
         }
+        let options = [
+            CBCentralManagerScanOptionAllowDuplicatesKey : NSNumber(value: false)
+        ]
         
+        let batteryServiceCBUUID = CBUUID(string: "0x183B")
+
+        bluetoothManager.scanForPeripherals(withServices: [batteryServiceCBUUID], options: nil)
+
+    }
+    func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: Error?) {
+        print(peripheral)
+        central.connect(peripheral, options: nil)
+        let batteryServiceCBUUID = CBUUID(string: "0x183B")
+//        peripheral.discoverServices(batteryServiceCBUUID)
     }
     
 }
