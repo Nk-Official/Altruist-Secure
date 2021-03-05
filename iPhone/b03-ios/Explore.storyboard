@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fRA-6r-hAs">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Feed-->
+        <scene sceneID="MdW-Dw-ZVS">
+            <objects>
+                <tableViewController extendedLayoutIncludesOpaqueBars="YES" providesPresentationContextTransitionStyle="YES" id="fRA-6r-hAs" userLabel="Feed" customClass="ExploreViewController" customModule="Mustage" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="490" sectionHeaderHeight="18" sectionFooterHeight="18" id="gYa-Bg-01J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <inset key="separatorInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                        <searchBar key="tableHeaderView" contentMode="scaleToFill" searchBarStyle="prominent" placeholder="search users" id="xBU-WS-zyw">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="fRA-6r-hAs" id="bcW-qS-NEC"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="User" rowHeight="45" id="q73-K8-Z7z" userLabel="User" customClass="UserTableViewCell" customModule="Mustage" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="99.5" width="375" height="45"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q73-K8-Z7z" id="cJ3-Da-49q">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvm-hC-sVH">
+                                            <rect key="frame" x="46" y="14" width="35.5" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatarPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="Fb7-iu-HIA" customClass="ProfileView" customModule="Mustage" customModuleProvider="target">
+                                            <rect key="frame" x="8" y="7.5" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="TrS-hU-RUG"/>
+                                                <constraint firstAttribute="height" constant="30" id="i0w-5f-tM4"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="wvm-hC-sVH" firstAttribute="centerY" secondItem="cJ3-Da-49q" secondAttribute="centerY" id="AnK-LG-vWT"/>
+                                        <constraint firstItem="Fb7-iu-HIA" firstAttribute="leading" secondItem="cJ3-Da-49q" secondAttribute="leading" constant="8" id="AxN-vu-lNC"/>
+                                        <constraint firstItem="wvm-hC-sVH" firstAttribute="leading" secondItem="Fb7-iu-HIA" secondAttribute="trailing" constant="8" id="F4Y-eE-oda"/>
+                                        <constraint firstItem="Fb7-iu-HIA" firstAttribute="centerY" secondItem="wvm-hC-sVH" secondAttribute="centerY" id="Gql-hT-6FS"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wvm-hC-sVH" secondAttribute="trailing" constant="8" id="Mc4-TC-it6"/>
+                                        <constraint firstItem="wvm-hC-sVH" firstAttribute="centerY" secondItem="cJ3-Da-49q" secondAttribute="centerY" id="OXy-8A-Sh6"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="profileView" destination="Fb7-iu-HIA" id="D5j-RG-hL9"/>
+                                    <outlet property="usernameView" destination="wvm-hC-sVH" id="Adv-cy-7o9"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fRA-6r-hAs" id="0Hf-cH-fqR"/>
+                            <outlet property="delegate" destination="fRA-6r-hAs" id="69r-Ou-q7a"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="2z3-vP-Ai0">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="6gk-ID-vz1">
+                            <rect key="frame" x="68" y="-42" width="240" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="mustageIcon" translatesAutoresizingMaskIntoConstraints="NO" id="0hC-X0-fJs">
+                                    <rect key="frame" x="88" y="52" width="64" height="24"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="0hC-X0-fJs" firstAttribute="centerY" secondItem="6gk-ID-vz1" secondAttribute="centerY" id="mny-Z5-Jfy"/>
+                                <constraint firstItem="0hC-X0-fJs" firstAttribute="centerX" secondItem="6gk-ID-vz1" secondAttribute="centerX" id="pYw-DT-3KR"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <size key="freeformSize" width="375" height="900"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="PdO-bI-Ozp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </refreshControl>
+                    <connections>
+                        <segue destination="YXk-GR-5vi" kind="show" identifier="show.profile" id="Bf8-PL-66K"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gyJ-GW-eXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2861.5999999999999" y="-184.40779610194903"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="cVW-wF-XoU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="YXk-GR-5vi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jLy-7O-vdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3585" y="-149"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" name="primary"/>
+    <resources>
+        <image name="avatarPlaceholder" width="51" height="51"/>
+        <image name="mustageIcon" width="64" height="24"/>
+        <namedColor name="primary">
+            <color red="0.18823529410000001" green="0.81960784310000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

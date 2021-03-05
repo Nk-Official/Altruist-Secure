@@ -1,0 +1,49 @@
+platform :ios, '11.0'
+use_frameworks!
+inhibit_all_warnings!
+
+APP_NAME = ENV["APP_NAME"] || "$(TARGET_NAME)"
+
+def core_pods
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Storage'
+    pod 'Firebase/AdMob'
+    pod 'Firebase/RemoteConfig'
+    pod 'Firebase/Performance'    
+    pod 'FirebaseUI', '~> 8.4.0'
+    pod 'Fabric', '~> 1.7.11'
+    pod 'Crashlytics', '~> 3.10.7'
+    pod 'SDWebImage'
+    pod 'SwiftHEXColors'
+    pod 'DateToolsSwift'
+    pod 'SimpleImageViewer', '~> 1.1.1'
+    pod 'FBSDKCoreKit'
+    pod 'Google-Mobile-Ads-SDK'
+    pod 'URLEmbeddedView'
+    pod 'MisterFusion'
+    pod 'MetalPetal'
+    pod "PryntTrimmerView"
+end
+
+target 'Mustage' do
+    core_pods
+end
+
+target 'MustageTests' do
+    core_pods
+end
+
+post_install do |installer|
+    app_project = Xcodeproj::Project.open('Project.xcodeproj');
+    
+    app_project.native_targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['PRODUCT_NAME'] = APP_NAME
+        end
+    end
+    app_project.save
+end

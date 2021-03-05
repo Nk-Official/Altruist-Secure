@@ -1,0 +1,40 @@
+/* 
+  Localization.strings
+  Project
+
+  Created by Oleg Baidalka on 26/05/2018.
+  Copyright © 2018 Bossly. All rights reserved.
+*/
+
+"cancel" = "Cancel";
+"dismiss" = "Dismiss";
+"Error" = "Error";
+"OK" = "OK";
+"Done!" = "Done!";
+"Uploading" = "Uploading";
+
+"camera" = "Camera";
+"recorder" = "Recorder";
+"library" = "Library";
+
+"logout" = "Logout";
+"logout.message" = "Do you want to log out on this device?";
+
+"report" = "Report";
+"blocked" = "Blocked";
+"blocked.message" = "We sorry, but user blocks you. Feel free to say: \"I'm sorry!\", if you know that person and behave correctly.";
+
+"user.report" = "Report user";
+"user.unblock" = "Unblock user";
+"user.block" = "Block user";
+"user.follow" = "Follow";
+"user.followers" = "Followers";
+"user.unfollow" = "Unfollow";
+"user.followings" = "Followings";
+
+"message.send" = "Send a message";
+
+"story.remove" = "Remove the story";
+"story.hide" = "Hide the story";
+
+"comment.remove" = "Remove the comment";
