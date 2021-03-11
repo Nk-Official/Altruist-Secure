@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "127256749911",
+    "firebase_url": "https://altruist--bangla.firebaseio.com",
+    "project_id": "altruist--bangla",
+    "storage_bucket": "altruist--bangla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127256749911:android:348d1c00223c4661568012",
+        "android_client_info": {
+          "package_name": "com.app.altruists_secure_bangla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127256749911-tqcpo7lh74jum25cu875e6k42vl0s4a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.altruists_secure_bangla",
+            "certificate_hash": "4beefa784b2b8a9c7cf991dfac539721282996ad"
+          }
+        },
+        {
+          "client_id": "127256749911-vtttfkfrrka4aabb0ohnkvtgv7cbqm3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa3o6_Rr0p2X55Al1AEEmvUIqfxHr7X_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127256749911-vtttfkfrrka4aabb0ohnkvtgv7cbqm3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

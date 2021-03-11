@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "279031003544",
+    "firebase_url": "https://altruist-flutter.firebaseio.com",
+    "project_id": "altruist--flutter",
+    "storage_bucket": "altruist--flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279031003544:android:f12787a1d9f777670493ed",
+        "android_client_info": {
+          "package_name": "com.insurance.atpl.altruist_secure_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279031003544-o9u44129m0ulqif5v6mm9372ejerqf0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insurance.atpl.altruist_secure_flutter",
+            "certificate_hash": "5536391c37ff64d70196bd4274ef92e7a9f5fcb4"
+          }
+        },
+        {
+          "client_id": "279031003544-0rqiuj940m2urlqsm4r6c53kak80gvjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insurance.atpl.altruist_secure_flutter",
+            "certificate_hash": "4cfe4d1c7d2cab822a213c086549db7a392f9e5a"
+          }
+        },
+        {
+          "client_id": "279031003544-jem82m3cnp57np6dsmok27dl204tvj96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insurance.atpl.altruist_secure_flutter",
+            "certificate_hash": "de5e630e787f2c34033457da7d5cfa09a6df650c"
+          }
+        },
+        {
+          "client_id": "279031003544-k14oh6k6tlg1ccf63sh48p6mmc9bak5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0yQqF7GKZkhOdtog4rbkoDnbNeINs8uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279031003544-k14oh6k6tlg1ccf63sh48p6mmc9bak5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279031003544-8h1h4qjql86pncv9a2vinqek86f7d31g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.insurance.altruistSecureFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

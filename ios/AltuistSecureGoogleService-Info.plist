@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>279031003544-8h1h4qjql86pncv9a2vinqek86f7d31g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.279031003544-8h1h4qjql86pncv9a2vinqek86f7d31g</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>279031003544-jem82m3cnp57np6dsmok27dl204tvj96.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBhyyc4yhfffg-xMM43arfZuJ1gh5Sw_7U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>279031003544</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.insurance.altruistSecureFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>altruist--flutter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>altruist--flutter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:279031003544:ios:814685f7352ec20b0493ed</string>
+	<key>DATABASE_URL</key>
+	<string>https://altruist-flutter.firebaseio.com</string>
+</dict>
+</plist>

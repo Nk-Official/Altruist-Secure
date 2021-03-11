@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1099210440742",
+    "firebase_url": "https://mansard-c941c.firebaseio.com",
+    "project_id": "mansard-c941c",
+    "storage_bucket": "mansard-c941c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099210440742:android:7444d3da66a66c526ee6e7",
+        "android_client_info": {
+          "package_name": "com.app.mansardecure_secure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099210440742-kp7fe28jook2bdlak39pktqgdvtv9vbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.mansardecure_secure",
+            "certificate_hash": "4beefa784b2b8a9c7cf991dfac539721282996ad"
+          }
+        },
+        {
+          "client_id": "1099210440742-vm7ncc95knvggdebmf2dhj8c9rg7ck2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhVihuSF6ioDHJ6jgo-kgnCRF05hiAUow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099210440742-vm7ncc95knvggdebmf2dhj8c9rg7ck2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

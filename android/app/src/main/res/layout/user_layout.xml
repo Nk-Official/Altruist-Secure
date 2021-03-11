@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/ll_user_layout"
+    android:background="@drawable/background_shape"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+<!--    <ImageView-->
+<!--        android:layout_weight=".5"-->
+<!--        android:background="@drawable/bubble_image"-->
+<!--        android:id="@+id/IV_layout"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content">-->
+<!--    </ImageView>-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Dial *#06# and click the picture with other phone"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:padding="10dp"
+            android:text="Mayank Aagarwal"
+            android:textSize="16dp"
+            android:textColor="@color/black_alpha_99"
+            android:id="@+id/tv_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:padding="10dp"
+            android:text="9876543210"
+            android:textSize="16dp"
+            android:textColor="@color/black_alpha_99"
+            android:id="@+id/tv_userNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

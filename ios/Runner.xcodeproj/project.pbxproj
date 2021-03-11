@@ -1,0 +1,2101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		9DB3BA584B145C6C7114EDC5 /* Pods_Noon_Secure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F46324BB4064AEBB33259FB /* Pods_Noon_Secure.framework */; };
+		CE0C631C24EA62430098063C /* GlassIMEITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631B24EA62430098063C /* GlassIMEITest.swift */; };
+		CE0C631E24EA62810098063C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631D24EA62810098063C /* Constant.swift */; };
+		CE0C631F24EA62810098063C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631D24EA62810098063C /* Constant.swift */; };
+		CE0C632024EA62810098063C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631D24EA62810098063C /* Constant.swift */; };
+		CE0C632124EA62860098063C /* GlassIMEITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631B24EA62430098063C /* GlassIMEITest.swift */; };
+		CE0C632224EA62860098063C /* GlassIMEITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631B24EA62430098063C /* GlassIMEITest.swift */; };
+		CE1BBD2A24ECEE3F00238B16 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE1BBD2D24ED4CD000238B16 /* GlassIMEITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBD2C24ED4CCF00238B16 /* GlassIMEITestViewController.swift */; };
+		CE1BBD2E24ED4CD000238B16 /* GlassIMEITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBD2C24ED4CCF00238B16 /* GlassIMEITestViewController.swift */; };
+		CE1BBD2F24ED4CD000238B16 /* GlassIMEITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBD2C24ED4CCF00238B16 /* GlassIMEITestViewController.swift */; };
+		CE46FC69243C7FD500C197BD /* HeadphoneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46FC68243C7FD500C197BD /* HeadphoneTest.swift */; };
+		CE4BF4F024C1C3EC003D7859 /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914FDE249217C900D7867E /* DeviceDetail.swift */; };
+		CE4BF4F124C1C3EC003D7859 /* ExBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD0A222448161600AC12BA /* ExBundle.swift */; };
+		CE4BF4F224C1C3EC003D7859 /* BluetoothTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73502243D9DD90003A0B5 /* BluetoothTest.swift */; };
+		CE4BF4F324C1C3EC003D7859 /* WifiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E915242DCE2F0006AAC7 /* WifiTest.swift */; };
+		CE4BF4F424C1C3EC003D7859 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE515AD242DEE8A000DB5D5 /* LocationTest.swift */; };
+		CE4BF4F524C1C3EC003D7859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		CE4BF4F624C1C3EC003D7859 /* TestKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6900FE24234C3400A2FE50 /* TestKeys.swift */; };
+		CE4BF4F724C1C3EC003D7859 /* SensorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E919242DCE410006AAC7 /* SensorTest.swift */; };
+		CE4BF4F824C1C3EC003D7859 /* SpeakerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F273B243AFBB200918624 /* SpeakerTest.swift */; };
+		CE4BF4F924C1C3EC003D7859 /* SimTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA858402423557700A8B87B /* SimTest.swift */; };
+		CE4BF4FA24C1C3EC003D7859 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		CE4BF4FB24C1C3EC003D7859 /* SolidLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E917242DCE360006AAC7 /* SolidLineView.swift */; };
+		CE4BF4FC24C1C3EC003D7859 /* ExDisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E911242DCE260006AAC7 /* ExDisplayTestViewController.swift */; };
+		CE4BF4FD24C1C3EC003D7859 /* DisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E912242DCE260006AAC7 /* DisplayTestViewController.swift */; };
+		CE4BF4FE24C1C3EC003D7859 /* HeadphoneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46FC68243C7FD500C197BD /* HeadphoneTest.swift */; };
+		CE4BF4FF24C1C3EC003D7859 /* ExAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69010024234DF700A2FE50 /* ExAppDelegate.swift */; };
+		CE4BF50124C1C3EC003D7859 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC73504243DC8300003A0B5 /* CoreBluetooth.framework */; };
+		CE4BF50324C1C3EC003D7859 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76393724A33D76005F784B /* libsqlite3.tbd */; };
+		CE4BF50624C1C3EC003D7859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		CE4BF50724C1C3EC003D7859 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		CE4BF50824C1C3EC003D7859 /* AltuistSecureGoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4CA6092445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist */; };
+		CE4BF50924C1C3EC003D7859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		CE4BF50A24C1C3EC003D7859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		CE4CA60A2445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4CA6092445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist */; };
+		CE5156C024C17A3F00F357B9 /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914FDE249217C900D7867E /* DeviceDetail.swift */; };
+		CE5156C124C17A3F00F357B9 /* ExBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD0A222448161600AC12BA /* ExBundle.swift */; };
+		CE5156C224C17A3F00F357B9 /* BluetoothTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73502243D9DD90003A0B5 /* BluetoothTest.swift */; };
+		CE5156C324C17A3F00F357B9 /* WifiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E915242DCE2F0006AAC7 /* WifiTest.swift */; };
+		CE5156C424C17A3F00F357B9 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE515AD242DEE8A000DB5D5 /* LocationTest.swift */; };
+		CE5156C524C17A3F00F357B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		CE5156C624C17A3F00F357B9 /* TestKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6900FE24234C3400A2FE50 /* TestKeys.swift */; };
+		CE5156C724C17A3F00F357B9 /* SensorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E919242DCE410006AAC7 /* SensorTest.swift */; };
+		CE5156C824C17A3F00F357B9 /* SpeakerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F273B243AFBB200918624 /* SpeakerTest.swift */; };
+		CE5156C924C17A3F00F357B9 /* SimTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA858402423557700A8B87B /* SimTest.swift */; };
+		CE5156CA24C17A3F00F357B9 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		CE5156CB24C17A3F00F357B9 /* SolidLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E917242DCE360006AAC7 /* SolidLineView.swift */; };
+		CE5156CC24C17A3F00F357B9 /* ExDisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E911242DCE260006AAC7 /* ExDisplayTestViewController.swift */; };
+		CE5156CD24C17A3F00F357B9 /* DisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E912242DCE260006AAC7 /* DisplayTestViewController.swift */; };
+		CE5156CE24C17A3F00F357B9 /* HeadphoneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46FC68243C7FD500C197BD /* HeadphoneTest.swift */; };
+		CE5156CF24C17A3F00F357B9 /* ExAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69010024234DF700A2FE50 /* ExAppDelegate.swift */; };
+		CE5156D124C17A3F00F357B9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC73504243DC8300003A0B5 /* CoreBluetooth.framework */; };
+		CE5156D324C17A3F00F357B9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76393724A33D76005F784B /* libsqlite3.tbd */; };
+		CE5156D624C17A3F00F357B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		CE5156D724C17A3F00F357B9 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		CE5156D824C17A3F00F357B9 /* AltuistSecureGoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4CA6092445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist */; };
+		CE5156DA24C17A3F00F357B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		CE5156EC24C17D9500F357B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		CE5156ED24C17DD700F357B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		CE6900FF24234C3400A2FE50 /* TestKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6900FE24234C3400A2FE50 /* TestKeys.swift */; };
+		CE69010124234DF700A2FE50 /* ExAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69010024234DF700A2FE50 /* ExAppDelegate.swift */; };
+		CE6D156325B550BB00409799 /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914FDE249217C900D7867E /* DeviceDetail.swift */; };
+		CE6D156425B550BB00409799 /* GlassIMEITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBD2C24ED4CCF00238B16 /* GlassIMEITestViewController.swift */; };
+		CE6D156525B550BB00409799 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975324EBB75000C99558 /* Query.swift */; };
+		CE6D156625B550BB00409799 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975424EBB75000C99558 /* NetworkingError.swift */; };
+		CE6D156725B550BB00409799 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631D24EA62810098063C /* Constant.swift */; };
+		CE6D156825B550BB00409799 /* ExBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD0A222448161600AC12BA /* ExBundle.swift */; };
+		CE6D156925B550BB00409799 /* BluetoothTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73502243D9DD90003A0B5 /* BluetoothTest.swift */; };
+		CE6D156A25B550BB00409799 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975D24EBB75000C99558 /* Request.swift */; };
+		CE6D156B25B550BB00409799 /* WifiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E915242DCE2F0006AAC7 /* WifiTest.swift */; };
+		CE6D156C25B550BB00409799 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE515AD242DEE8A000DB5D5 /* LocationTest.swift */; };
+		CE6D156D25B550BB00409799 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974E24EB9F0100C99558 /* APIKeys.swift */; };
+		CE6D156E25B550BB00409799 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975A24EBB75000C99558 /* RouterProtocol.swift */; };
+		CE6D156F25B550BB00409799 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974524EB9ECC00C99558 /* LocalNotification.swift */; };
+		CE6D157025B550BB00409799 /* JSONEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975524EBB75000C99558 /* JSONEncryptor.swift */; };
+		CE6D157125B550BB00409799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		CE6D157225B550BB00409799 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975924EBB75000C99558 /* Router.swift */; };
+		CE6D157325B550BB00409799 /* TestKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6900FE24234C3400A2FE50 /* TestKeys.swift */; };
+		CE6D157425B550BB00409799 /* ServerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B978124EBBC8E00C99558 /* ServerBridge.swift */; };
+		CE6D157525B550BB00409799 /* SensorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E919242DCE410006AAC7 /* SensorTest.swift */; };
+		CE6D157625B550BB00409799 /* SpeakerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F273B243AFBB200918624 /* SpeakerTest.swift */; };
+		CE6D157725B550BB00409799 /* SimTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA858402423557700A8B87B /* SimTest.swift */; };
+		CE6D157825B550BB00409799 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		CE6D157925B550BB00409799 /* GlassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178E24EC0C5200139973 /* GlassTest.swift */; };
+		CE6D157A25B550BB00409799 /* SolidLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E917242DCE360006AAC7 /* SolidLineView.swift */; };
+		CE6D157B25B550BB00409799 /* ExDisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E911242DCE260006AAC7 /* ExDisplayTestViewController.swift */; };
+		CE6D157C25B550BB00409799 /* RequestComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975C24EBB75000C99558 /* RequestComposer.swift */; };
+		CE6D157D25B550BB00409799 /* RequestComposerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975E24EBB75000C99558 /* RequestComposerProtocol.swift */; };
+		CE6D157E25B550BB00409799 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975724EBB75000C99558 /* API.swift */; };
+		CE6D157F25B550BB00409799 /* DisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E912242DCE260006AAC7 /* DisplayTestViewController.swift */; };
+		CE6D158025B550BB00409799 /* QRCodeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178624EBF30200139973 /* QRCodeParam.swift */; };
+		CE6D158125B550BB00409799 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975624EBB75000C99558 /* HTTPMethod.swift */; };
+		CE6D158225B550BB00409799 /* HeadphoneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46FC68243C7FD500C197BD /* HeadphoneTest.swift */; };
+		CE6D158325B550BB00409799 /* GlassIMEITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C631B24EA62430098063C /* GlassIMEITest.swift */; };
+		CE6D158425B550BB00409799 /* ExAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE69010024234DF700A2FE50 /* ExAppDelegate.swift */; };
+		CE6D158625B550BB00409799 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC73504243DC8300003A0B5 /* CoreBluetooth.framework */; };
+		CE6D158825B550BB00409799 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76393724A33D76005F784B /* libsqlite3.tbd */; };
+		CE6D158B25B550BB00409799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		CE6D158C25B550BB00409799 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		CE6D158D25B550BB00409799 /* Noon Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0A24FFFD9300BB7599 /* Noon Secure.plist */; };
+		CE6D158E25B550BB00409799 /* AltuistSecureGoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4CA6092445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist */; };
+		CE6D158F25B550BB00409799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
+		CE6D159025B550BB00409799 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CECE178A24EC042800139973 /* Readme.md */; };
+		CE6D159125B550BB00409799 /* Altruist Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0B24FFFD9300BB7599 /* Altruist Secure.plist */; };
+		CE6D159225B550BB00409799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
+		CE6D15A125B5534300409799 /* GoogleServiceBangla-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6D15A025B5534300409799 /* GoogleServiceBangla-Info.plist */; };
+		CE76393824A33D91005F784B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE76393724A33D76005F784B /* libsqlite3.tbd */; };
+		CE77E913242DCE260006AAC7 /* ExDisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E911242DCE260006AAC7 /* ExDisplayTestViewController.swift */; };
+		CE77E914242DCE260006AAC7 /* DisplayTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E912242DCE260006AAC7 /* DisplayTestViewController.swift */; };
+		CE77E916242DCE2F0006AAC7 /* WifiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E915242DCE2F0006AAC7 /* WifiTest.swift */; };
+		CE77E918242DCE360006AAC7 /* SolidLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E917242DCE360006AAC7 /* SolidLineView.swift */; };
+		CE77E91A242DCE410006AAC7 /* SensorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77E919242DCE410006AAC7 /* SensorTest.swift */; };
+		CE7B974624EB9ECC00C99558 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974524EB9ECC00C99558 /* LocalNotification.swift */; };
+		CE7B974724EB9ECC00C99558 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974524EB9ECC00C99558 /* LocalNotification.swift */; };
+		CE7B974824EB9ECC00C99558 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974524EB9ECC00C99558 /* LocalNotification.swift */; };
+		CE7B974F24EB9F0100C99558 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974E24EB9F0100C99558 /* APIKeys.swift */; };
+		CE7B975024EB9F0100C99558 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974E24EB9F0100C99558 /* APIKeys.swift */; };
+		CE7B975124EB9F0100C99558 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B974E24EB9F0100C99558 /* APIKeys.swift */; };
+		CE7B975F24EBB75000C99558 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975324EBB75000C99558 /* Query.swift */; };
+		CE7B976024EBB75000C99558 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975324EBB75000C99558 /* Query.swift */; };
+		CE7B976124EBB75000C99558 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975324EBB75000C99558 /* Query.swift */; };
+		CE7B976224EBB75000C99558 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975424EBB75000C99558 /* NetworkingError.swift */; };
+		CE7B976324EBB75000C99558 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975424EBB75000C99558 /* NetworkingError.swift */; };
+		CE7B976424EBB75000C99558 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975424EBB75000C99558 /* NetworkingError.swift */; };
+		CE7B976524EBB75000C99558 /* JSONEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975524EBB75000C99558 /* JSONEncryptor.swift */; };
+		CE7B976624EBB75000C99558 /* JSONEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975524EBB75000C99558 /* JSONEncryptor.swift */; };
+		CE7B976724EBB75000C99558 /* JSONEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975524EBB75000C99558 /* JSONEncryptor.swift */; };
+		CE7B976824EBB75000C99558 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975624EBB75000C99558 /* HTTPMethod.swift */; };
+		CE7B976924EBB75000C99558 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975624EBB75000C99558 /* HTTPMethod.swift */; };
+		CE7B976A24EBB75000C99558 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975624EBB75000C99558 /* HTTPMethod.swift */; };
+		CE7B976B24EBB75000C99558 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975724EBB75000C99558 /* API.swift */; };
+		CE7B976C24EBB75000C99558 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975724EBB75000C99558 /* API.swift */; };
+		CE7B976D24EBB75000C99558 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975724EBB75000C99558 /* API.swift */; };
+		CE7B976E24EBB75000C99558 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975924EBB75000C99558 /* Router.swift */; };
+		CE7B976F24EBB75000C99558 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975924EBB75000C99558 /* Router.swift */; };
+		CE7B977024EBB75000C99558 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975924EBB75000C99558 /* Router.swift */; };
+		CE7B977124EBB75000C99558 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975A24EBB75000C99558 /* RouterProtocol.swift */; };
+		CE7B977224EBB75000C99558 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975A24EBB75000C99558 /* RouterProtocol.swift */; };
+		CE7B977324EBB75000C99558 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975A24EBB75000C99558 /* RouterProtocol.swift */; };
+		CE7B977424EBB75000C99558 /* RequestComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975C24EBB75000C99558 /* RequestComposer.swift */; };
+		CE7B977524EBB75000C99558 /* RequestComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975C24EBB75000C99558 /* RequestComposer.swift */; };
+		CE7B977624EBB75000C99558 /* RequestComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975C24EBB75000C99558 /* RequestComposer.swift */; };
+		CE7B977724EBB75000C99558 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975D24EBB75000C99558 /* Request.swift */; };
+		CE7B977824EBB75000C99558 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975D24EBB75000C99558 /* Request.swift */; };
+		CE7B977924EBB75000C99558 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975D24EBB75000C99558 /* Request.swift */; };
+		CE7B977A24EBB75000C99558 /* RequestComposerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975E24EBB75000C99558 /* RequestComposerProtocol.swift */; };
+		CE7B977B24EBB75000C99558 /* RequestComposerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975E24EBB75000C99558 /* RequestComposerProtocol.swift */; };
+		CE7B977C24EBB75000C99558 /* RequestComposerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B975E24EBB75000C99558 /* RequestComposerProtocol.swift */; };
+		CE7B978224EBBC8E00C99558 /* ServerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B978124EBBC8E00C99558 /* ServerBridge.swift */; };
+		CE7B978324EBBC8E00C99558 /* ServerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B978124EBBC8E00C99558 /* ServerBridge.swift */; };
+		CE7B978424EBBC8E00C99558 /* ServerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B978124EBBC8E00C99558 /* ServerBridge.swift */; };
+		CE914FDF249217C900D7867E /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE914FDE249217C900D7867E /* DeviceDetail.swift */; };
+		CE9F273C243AFBB200918624 /* SpeakerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F273B243AFBB200918624 /* SpeakerTest.swift */; };
+		CE9F273F243B32AD00918624 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F273D243B32AA00918624 /* App.framework */; };
+		CE9F2740243B32AD00918624 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F273D243B32AA00918624 /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEA858412423557800A8B87B /* SimTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA858402423557700A8B87B /* SimTest.swift */; };
+		CEAA7C0C24FFFD9300BB7599 /* Noon Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0A24FFFD9300BB7599 /* Noon Secure.plist */; };
+		CEAA7C0D24FFFD9300BB7599 /* Noon Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0A24FFFD9300BB7599 /* Noon Secure.plist */; };
+		CEAA7C0E24FFFD9300BB7599 /* Noon Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0A24FFFD9300BB7599 /* Noon Secure.plist */; };
+		CEAA7C0F24FFFD9300BB7599 /* Altruist Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0B24FFFD9300BB7599 /* Altruist Secure.plist */; };
+		CEAA7C1024FFFD9300BB7599 /* Altruist Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0B24FFFD9300BB7599 /* Altruist Secure.plist */; };
+		CEAA7C1124FFFD9300BB7599 /* Altruist Secure.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEAA7C0B24FFFD9300BB7599 /* Altruist Secure.plist */; };
+		CEBD0A232448161600AC12BA /* ExBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD0A222448161600AC12BA /* ExBundle.swift */; };
+		CEC73503243D9DD90003A0B5 /* BluetoothTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC73502243D9DD90003A0B5 /* BluetoothTest.swift */; };
+		CEC73505243DC8300003A0B5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC73504243DC8300003A0B5 /* CoreBluetooth.framework */; };
+		CECE178724EBF30200139973 /* QRCodeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178624EBF30200139973 /* QRCodeParam.swift */; };
+		CECE178824EBF30200139973 /* QRCodeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178624EBF30200139973 /* QRCodeParam.swift */; };
+		CECE178924EBF30200139973 /* QRCodeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178624EBF30200139973 /* QRCodeParam.swift */; };
+		CECE178B24EC042800139973 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CECE178A24EC042800139973 /* Readme.md */; };
+		CECE178C24EC042800139973 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CECE178A24EC042800139973 /* Readme.md */; };
+		CECE178D24EC042800139973 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CECE178A24EC042800139973 /* Readme.md */; };
+		CECE178F24EC0C5200139973 /* GlassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178E24EC0C5200139973 /* GlassTest.swift */; };
+		CECE179024EC0C5200139973 /* GlassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178E24EC0C5200139973 /* GlassTest.swift */; };
+		CECE179124EC0C5200139973 /* GlassTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE178E24EC0C5200139973 /* GlassTest.swift */; };
+		CEE15C8C2539A8FC00D949D8 /* AltuistSecureR3GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE15C8B2539A8FC00D949D8 /* AltuistSecureR3GoogleService-Info.plist */; };
+		CEE15C8D2539A8FF00D949D8 /* NoonSecureGoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE43D6F32539A1AB00C4C530 /* NoonSecureGoogleService-Info.plist */; };
+		CEE515AE242DEE8A000DB5D5 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE515AD242DEE8A000DB5D5 /* LocationTest.swift */; };
+		E1B929265310F893CE071C38 /* Pods_Altruist_Secure_Bangla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE729B2BD302F352BE8F8AD /* Pods_Altruist_Secure_Bangla.framework */; };
+		E7B4E36F5B9D811A6AA65C96 /* Pods_Altruist_Secure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D151024E8038775EB77E2A /* Pods_Altruist_Secure.framework */; };
+		F5EF1AB169DA7DB2A5C11EBC /* Pods_AltruistSecureR3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB5B81C45DE4CE6DF165092 /* Pods_AltruistSecureR3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE1BBD2A24ECEE3F00238B16 /* (null) in Embed Frameworks */,
+				CE9F2740243B32AD00918624 /* App.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5156DB24C17A3F00F357B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CA6CE0EC3E3D5D06BCB986D /* Pods-AltruistSecureR3.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltruistSecureR3.profile.xcconfig"; path = "Target Support Files/Pods-AltruistSecureR3/Pods-AltruistSecureR3.profile.xcconfig"; sourceTree = "<group>"; };
+		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		18F4DBED025DB31532964B2B /* Pods-AltruistSecureR3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltruistSecureR3.release.xcconfig"; path = "Target Support Files/Pods-AltruistSecureR3/Pods-AltruistSecureR3.release.xcconfig"; sourceTree = "<group>"; };
+		1E819650F8A73A20A3FB4B44 /* Pods-Altruist Secure Bangla.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altruist Secure Bangla.profile.xcconfig"; path = "Target Support Files/Pods-Altruist Secure Bangla/Pods-Altruist Secure Bangla.profile.xcconfig"; sourceTree = "<group>"; };
+		1EB5B81C45DE4CE6DF165092 /* Pods_AltruistSecureR3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AltruistSecureR3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B50979B42193282EA8CD3C /* Pods-Noon Secure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noon Secure.debug.xcconfig"; path = "Target Support Files/Pods-Noon Secure/Pods-Noon Secure.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		56C621ED2FDC2F8D724EBA2F /* Pods-Altruist Secure Bangla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altruist Secure Bangla.debug.xcconfig"; path = "Target Support Files/Pods-Altruist Secure Bangla/Pods-Altruist Secure Bangla.debug.xcconfig"; sourceTree = "<group>"; };
+		5CC8261F81172DE2E2419E78 /* Pods-Noon Secure.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noon Secure.profile.xcconfig"; path = "Target Support Files/Pods-Noon Secure/Pods-Noon Secure.profile.xcconfig"; sourceTree = "<group>"; };
+		64D151024E8038775EB77E2A /* Pods_Altruist_Secure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Altruist_Secure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730E650E0539CEBF1FEBAAB4 /* Pods-Altruist Secure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altruist Secure.debug.xcconfig"; path = "Target Support Files/Pods-Altruist Secure/Pods-Altruist Secure.debug.xcconfig"; sourceTree = "<group>"; };
+		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		8F46324BB4064AEBB33259FB /* Pods_Noon_Secure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noon_Secure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
+		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
+		97C146EE1CF9000F007C117D /* Altruist Secure-R3F.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altruist Secure-R3F.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C147021CF9000F007C117D /* AltruistSecureR3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AltruistSecureR3.plist; sourceTree = "<group>"; };
+		98041CC5B434E4D67A2C61FA /* Pods-Noon Secure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noon Secure.release.xcconfig"; path = "Target Support Files/Pods-Noon Secure/Pods-Noon Secure.release.xcconfig"; sourceTree = "<group>"; };
+		9C374C3368A4F4919CB2C225 /* Pods-Altruist Secure Bangla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altruist Secure Bangla.release.xcconfig"; path = "Target Support Files/Pods-Altruist Secure Bangla/Pods-Altruist Secure Bangla.release.xcconfig"; sourceTree = "<group>"; };
+		B9C4681A992F05787D1EF011 /* Pods-Altruist Secure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altruist Secure.release.xcconfig"; path = "Target Support Files/Pods-Altruist Secure/Pods-Altruist Secure.release.xcconfig"; sourceTree = "<group>"; };
+		BCE729B2BD302F352BE8F8AD /* Pods_Altruist_Secure_Bangla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Altruist_Secure_Bangla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0C631B24EA62430098063C /* GlassIMEITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassIMEITest.swift; sourceTree = "<group>"; };
+		CE0C631D24EA62810098063C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CE1BBD2C24ED4CCF00238B16 /* GlassIMEITestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassIMEITestViewController.swift; sourceTree = "<group>"; };
+		CE43D6F32539A1AB00C4C530 /* NoonSecureGoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NoonSecureGoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE46FC68243C7FD500C197BD /* HeadphoneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneTest.swift; sourceTree = "<group>"; };
+		CE4BF51624C1C3EC003D7859 /* MTN Device Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTN Device Insurance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4CA6092445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AltuistSecureGoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE5156E624C17A3F00F357B9 /* Noon Secure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noon Secure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6900FE24234C3400A2FE50 /* TestKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKeys.swift; sourceTree = "<group>"; };
+		CE69010024234DF700A2FE50 /* ExAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExAppDelegate.swift; sourceTree = "<group>"; };
+		CE6D159E25B550BB00409799 /* Altruist Secure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altruist Secure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6D159F25B550BC00409799 /* AltruistSecureBangla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AltruistSecureBangla-Info.plist"; path = "/Users/user/Documents/iPhoneHealth/insuranceflutter/ios/AltruistSecureBangla-Info.plist"; sourceTree = "<absolute>"; };
+		CE6D15A025B5534300409799 /* GoogleServiceBangla-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceBangla-Info.plist"; sourceTree = "<group>"; };
+		CE76393724A33D76005F784B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CE77E911242DCE260006AAC7 /* ExDisplayTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExDisplayTestViewController.swift; sourceTree = "<group>"; };
+		CE77E912242DCE260006AAC7 /* DisplayTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayTestViewController.swift; sourceTree = "<group>"; };
+		CE77E915242DCE2F0006AAC7 /* WifiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiTest.swift; sourceTree = "<group>"; };
+		CE77E917242DCE360006AAC7 /* SolidLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidLineView.swift; sourceTree = "<group>"; };
+		CE77E919242DCE410006AAC7 /* SensorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorTest.swift; sourceTree = "<group>"; };
+		CE7B974524EB9ECC00C99558 /* LocalNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		CE7B974E24EB9F0100C99558 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		CE7B975324EBB75000C99558 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		CE7B975424EBB75000C99558 /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		CE7B975524EBB75000C99558 /* JSONEncryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncryptor.swift; sourceTree = "<group>"; };
+		CE7B975624EBB75000C99558 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CE7B975724EBB75000C99558 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CE7B975924EBB75000C99558 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CE7B975A24EBB75000C99558 /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		CE7B975C24EBB75000C99558 /* RequestComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestComposer.swift; sourceTree = "<group>"; };
+		CE7B975D24EBB75000C99558 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CE7B975E24EBB75000C99558 /* RequestComposerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestComposerProtocol.swift; sourceTree = "<group>"; };
+		CE7B978124EBBC8E00C99558 /* ServerBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerBridge.swift; sourceTree = "<group>"; };
+		CE7B978624EBE10200C99558 /* NoonSecureDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = NoonSecureDebug.xcconfig; path = Flutter/NoonSecureDebug.xcconfig; sourceTree = "<group>"; };
+		CE914FDE249217C900D7867E /* DeviceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetail.swift; sourceTree = "<group>"; };
+		CE9F273B243AFBB200918624 /* SpeakerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerTest.swift; sourceTree = "<group>"; };
+		CE9F273D243B32AA00918624 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
+		CEA2A9022486368F0006BBDA /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		CEA858402423557700A8B87B /* SimTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimTest.swift; sourceTree = "<group>"; };
+		CEAA7C0A24FFFD9300BB7599 /* Noon Secure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Noon Secure.plist"; sourceTree = "<group>"; };
+		CEAA7C0B24FFFD9300BB7599 /* Altruist Secure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Altruist Secure.plist"; sourceTree = "<group>"; };
+		CEBD0A222448161600AC12BA /* ExBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExBundle.swift; sourceTree = "<group>"; };
+		CEC62B3224EE4B6F00BDB103 /* AltruistSecureR3Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AltruistSecureR3Release.xcconfig; path = Flutter/AltruistSecureR3Release.xcconfig; sourceTree = "<group>"; };
+		CEC62B3324EE4B6F00BDB103 /* AltruistSecureR3Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AltruistSecureR3Debug.xcconfig; path = Flutter/AltruistSecureR3Debug.xcconfig; sourceTree = "<group>"; };
+		CEC62B3424EE4B6F00BDB103 /* AltruistSecureDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AltruistSecureDebug.xcconfig; path = Flutter/AltruistSecureDebug.xcconfig; sourceTree = "<group>"; };
+		CEC62B3524EE4B6F00BDB103 /* AltruistSecureRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AltruistSecureRelease.xcconfig; path = Flutter/AltruistSecureRelease.xcconfig; sourceTree = "<group>"; };
+		CEC62B3624EE4B6F00BDB103 /* NoonSecureRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = NoonSecureRelease.xcconfig; path = Flutter/NoonSecureRelease.xcconfig; sourceTree = "<group>"; };
+		CEC73502243D9DD90003A0B5 /* BluetoothTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTest.swift; sourceTree = "<group>"; };
+		CEC73504243DC8300003A0B5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CECE178624EBF30200139973 /* QRCodeParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeParam.swift; sourceTree = "<group>"; };
+		CECE178A24EC042800139973 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		CECE178E24EC0C5200139973 /* GlassTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTest.swift; sourceTree = "<group>"; };
+		CEE15C8B2539A8FC00D949D8 /* AltuistSecureR3GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AltuistSecureR3GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE515AD242DEE8A000DB5D5 /* LocationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTest.swift; sourceTree = "<group>"; };
+		EB1430127A12DDA4B75B37BB /* Pods-AltruistSecureR3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AltruistSecureR3.debug.xcconfig"; path = "Target Support Files/Pods-AltruistSecureR3/Pods-AltruistSecureR3.debug.xcconfig"; sourceTree = "<group>"; };
+		F742C8C334CAEBDB08DD8164 /* Pods-Altruist Secure.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altruist Secure.profile.xcconfig"; path = "Target Support Files/Pods-Altruist Secure/Pods-Altruist Secure.profile.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97C146EB1CF9000F007C117D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC73505243DC8300003A0B5 /* CoreBluetooth.framework in Frameworks */,
+				CE9F273F243B32AD00918624 /* App.framework in Frameworks */,
+				CE76393824A33D91005F784B /* libsqlite3.tbd in Frameworks */,
+				F5EF1AB169DA7DB2A5C11EBC /* Pods_AltruistSecureR3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4BF50024C1C3EC003D7859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4BF50124C1C3EC003D7859 /* CoreBluetooth.framework in Frameworks */,
+				CE4BF50324C1C3EC003D7859 /* libsqlite3.tbd in Frameworks */,
+				E7B4E36F5B9D811A6AA65C96 /* Pods_Altruist_Secure.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5156D024C17A3F00F357B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5156D124C17A3F00F357B9 /* CoreBluetooth.framework in Frameworks */,
+				CE5156D324C17A3F00F357B9 /* libsqlite3.tbd in Frameworks */,
+				9DB3BA584B145C6C7114EDC5 /* Pods_Noon_Secure.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6D158525B550BB00409799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6D158625B550BB00409799 /* CoreBluetooth.framework in Frameworks */,
+				CE6D158825B550BB00409799 /* libsqlite3.tbd in Frameworks */,
+				E1B929265310F893CE071C38 /* Pods_Altruist_Secure_Bangla.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A6A82EAB14C52F08C1945B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE76393724A33D76005F784B /* libsqlite3.tbd */,
+				CEC73504243DC8300003A0B5 /* CoreBluetooth.framework */,
+				64D151024E8038775EB77E2A /* Pods_Altruist_Secure.framework */,
+				BCE729B2BD302F352BE8F8AD /* Pods_Altruist_Secure_Bangla.framework */,
+				1EB5B81C45DE4CE6DF165092 /* Pods_AltruistSecureR3.framework */,
+				8F46324BB4064AEBB33259FB /* Pods_Noon_Secure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9740EEB11CF90186004384FC /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
+				CE9F273D243B32AA00918624 /* App.framework */,
+				9740EEB21CF90195004384FC /* Debug.xcconfig */,
+				7AFA3C8E1D35360C0083082E /* Release.xcconfig */,
+				9740EEB31CF90195004384FC /* Generated.xcconfig */,
+				CE7B978624EBE10200C99558 /* NoonSecureDebug.xcconfig */,
+				CEC62B3424EE4B6F00BDB103 /* AltruistSecureDebug.xcconfig */,
+				CEC62B3324EE4B6F00BDB103 /* AltruistSecureR3Debug.xcconfig */,
+				CEC62B3224EE4B6F00BDB103 /* AltruistSecureR3Release.xcconfig */,
+				CEC62B3524EE4B6F00BDB103 /* AltruistSecureRelease.xcconfig */,
+				CEC62B3624EE4B6F00BDB103 /* NoonSecureRelease.xcconfig */,
+			);
+			name = Flutter;
+			sourceTree = "<group>";
+		};
+		97C146E51CF9000F007C117D = {
+			isa = PBXGroup;
+			children = (
+				CECE178A24EC042800139973 /* Readme.md */,
+				CEE15C8B2539A8FC00D949D8 /* AltuistSecureR3GoogleService-Info.plist */,
+				CE6D159F25B550BC00409799 /* AltruistSecureBangla-Info.plist */,
+				CE6D15A025B5534300409799 /* GoogleServiceBangla-Info.plist */,
+				CE43D6F32539A1AB00C4C530 /* NoonSecureGoogleService-Info.plist */,
+				CE4CA6092445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist */,
+				9740EEB11CF90186004384FC /* Flutter */,
+				97C146F01CF9000F007C117D /* Runner */,
+				97C146EF1CF9000F007C117D /* Products */,
+				F24676FA3F13EE38EAB3798E /* Pods */,
+				80A6A82EAB14C52F08C1945B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97C146EF1CF9000F007C117D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C146EE1CF9000F007C117D /* Altruist Secure-R3F.app */,
+				CE5156E624C17A3F00F357B9 /* Noon Secure.app */,
+				CE4BF51624C1C3EC003D7859 /* MTN Device Insurance.app */,
+				CE6D159E25B550BB00409799 /* Altruist Secure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97C146F01CF9000F007C117D /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				CEA2A9022486368F0006BBDA /* Runner.entitlements */,
+				97C146FA1CF9000F007C117D /* Main.storyboard */,
+				97C146FD1CF9000F007C117D /* Assets.xcassets */,
+				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
+				97C146F11CF9000F007C117D /* Supporting Files */,
+				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
+				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
+				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
+				CE0C631D24EA62810098063C /* Constant.swift */,
+				CE69010024234DF700A2FE50 /* ExAppDelegate.swift */,
+				CECE178524EBF2D100139973 /* Model */,
+				CE7B974924EB9ED900C99558 /* WebService */,
+				CE690102242354F500A2FE50 /* Tests */,
+				CE6900FD24234C1B00A2FE50 /* UTILITY */,
+				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		97C146F11CF9000F007C117D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C147021CF9000F007C117D /* AltruistSecureR3.plist */,
+				CEAA7C0B24FFFD9300BB7599 /* Altruist Secure.plist */,
+				CEAA7C0A24FFFD9300BB7599 /* Noon Secure.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6900FD24234C1B00A2FE50 /* UTILITY */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD0A1F244815E800AC12BA /* Extensions */,
+				CE6900FE24234C3400A2FE50 /* TestKeys.swift */,
+			);
+			name = UTILITY;
+			sourceTree = "<group>";
+		};
+		CE690102242354F500A2FE50 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC32C3E242DD4C700A16C17 /* SensorTest */,
+				CE77E910242DCE1C0006AAC7 /* Display Test */,
+				CEA858402423557700A8B87B /* SimTest.swift */,
+				CE77E915242DCE2F0006AAC7 /* WifiTest.swift */,
+				CE9F273B243AFBB200918624 /* SpeakerTest.swift */,
+				CE46FC68243C7FD500C197BD /* HeadphoneTest.swift */,
+				CEC73502243D9DD90003A0B5 /* BluetoothTest.swift */,
+				CE914FDE249217C900D7867E /* DeviceDetail.swift */,
+				CE0C631B24EA62430098063C /* GlassIMEITest.swift */,
+				CE7B974524EB9ECC00C99558 /* LocalNotification.swift */,
+				CE1BBD2C24ED4CCF00238B16 /* GlassIMEITestViewController.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		CE77E910242DCE1C0006AAC7 /* Display Test */ = {
+			isa = PBXGroup;
+			children = (
+				CE77E912242DCE260006AAC7 /* DisplayTestViewController.swift */,
+				CE77E911242DCE260006AAC7 /* ExDisplayTestViewController.swift */,
+				CE77E917242DCE360006AAC7 /* SolidLineView.swift */,
+			);
+			name = "Display Test";
+			sourceTree = "<group>";
+		};
+		CE7B974924EB9ED900C99558 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B974E24EB9F0100C99558 /* APIKeys.swift */,
+				CE7B978124EBBC8E00C99558 /* ServerBridge.swift */,
+				CE7B975224EBB75000C99558 /* Helper */,
+				CE7B975B24EBB75000C99558 /* Request */,
+				CE7B975824EBB75000C99558 /* Router */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		CE7B975224EBB75000C99558 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B975324EBB75000C99558 /* Query.swift */,
+				CE7B975424EBB75000C99558 /* NetworkingError.swift */,
+				CE7B975524EBB75000C99558 /* JSONEncryptor.swift */,
+				CE7B975624EBB75000C99558 /* HTTPMethod.swift */,
+				CE7B975724EBB75000C99558 /* API.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CE7B975824EBB75000C99558 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B975924EBB75000C99558 /* Router.swift */,
+				CE7B975A24EBB75000C99558 /* RouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CE7B975B24EBB75000C99558 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B975C24EBB75000C99558 /* RequestComposer.swift */,
+				CE7B975D24EBB75000C99558 /* Request.swift */,
+				CE7B975E24EBB75000C99558 /* RequestComposerProtocol.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CEBD0A1F244815E800AC12BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD0A222448161600AC12BA /* ExBundle.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CEC32C3E242DD4C700A16C17 /* SensorTest */ = {
+			isa = PBXGroup;
+			children = (
+				CE77E919242DCE410006AAC7 /* SensorTest.swift */,
+				CEE515AD242DEE8A000DB5D5 /* LocationTest.swift */,
+			);
+			name = SensorTest;
+			sourceTree = "<group>";
+		};
+		CECE178524EBF2D100139973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CECE178624EBF30200139973 /* QRCodeParam.swift */,
+				CECE178E24EC0C5200139973 /* GlassTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F24676FA3F13EE38EAB3798E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				730E650E0539CEBF1FEBAAB4 /* Pods-Altruist Secure.debug.xcconfig */,
+				B9C4681A992F05787D1EF011 /* Pods-Altruist Secure.release.xcconfig */,
+				F742C8C334CAEBDB08DD8164 /* Pods-Altruist Secure.profile.xcconfig */,
+				56C621ED2FDC2F8D724EBA2F /* Pods-Altruist Secure Bangla.debug.xcconfig */,
+				9C374C3368A4F4919CB2C225 /* Pods-Altruist Secure Bangla.release.xcconfig */,
+				1E819650F8A73A20A3FB4B44 /* Pods-Altruist Secure Bangla.profile.xcconfig */,
+				EB1430127A12DDA4B75B37BB /* Pods-AltruistSecureR3.debug.xcconfig */,
+				18F4DBED025DB31532964B2B /* Pods-AltruistSecureR3.release.xcconfig */,
+				0CA6CE0EC3E3D5D06BCB986D /* Pods-AltruistSecureR3.profile.xcconfig */,
+				27B50979B42193282EA8CD3C /* Pods-Noon Secure.debug.xcconfig */,
+				98041CC5B434E4D67A2C61FA /* Pods-Noon Secure.release.xcconfig */,
+				5CC8261F81172DE2E2419E78 /* Pods-Noon Secure.profile.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97C146ED1CF9000F007C117D /* AltruistSecureR3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "AltruistSecureR3" */;
+			buildPhases = (
+				6398B754DC78AB87517C758A /* [CP] Check Pods Manifest.lock */,
+				9740EEB61CF901F6004384FC /* Run Script */,
+				97C146EA1CF9000F007C117D /* Sources */,
+				97C146EB1CF9000F007C117D /* Frameworks */,
+				97C146EC1CF9000F007C117D /* Resources */,
+				CEE15C8F2539A9D300D949D8 /* GoogleServicePlistFile */,
+				9705A1C41CF9048500538489 /* Embed Frameworks */,
+				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				CE4CA6082445E17600713C15 /* ShellScript */,
+				81D5F6CB1638C78F0737E6BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltruistSecureR3;
+			productName = Runner;
+			productReference = 97C146EE1CF9000F007C117D /* Altruist Secure-R3F.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4BF4EC24C1C3EC003D7859 /* Altruist Secure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4BF51224C1C3EC003D7859 /* Build configuration list for PBXNativeTarget "Altruist Secure" */;
+			buildPhases = (
+				919934667916B031224237CA /* [CP] Check Pods Manifest.lock */,
+				CE4BF4EE24C1C3EC003D7859 /* Run Script */,
+				CE4BF4EF24C1C3EC003D7859 /* Sources */,
+				CE4BF50024C1C3EC003D7859 /* Frameworks */,
+				CE4BF50524C1C3EC003D7859 /* Resources */,
+				CEE15C8A2539A29700D949D8 /* GoogleServicePlistFile */,
+				CE4BF50E24C1C3EC003D7859 /* Thin Binary */,
+				CE4BF51024C1C3EC003D7859 /* Upload DYSM */,
+				CE4BF51124C1C3EC003D7859 /* ShellScript */,
+				2F9C68F56878B6F4044CFFD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Altruist Secure";
+			productName = Runner;
+			productReference = CE4BF51624C1C3EC003D7859 /* MTN Device Insurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5156BC24C17A3F00F357B9 /* Noon Secure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5156E224C17A3F00F357B9 /* Build configuration list for PBXNativeTarget "Noon Secure" */;
+			buildPhases = (
+				17752DB3F2AAECDAC73FA364 /* [CP] Check Pods Manifest.lock */,
+				CE5156BE24C17A3F00F357B9 /* Run Script */,
+				CE5156BF24C17A3F00F357B9 /* Sources */,
+				CE5156D024C17A3F00F357B9 /* Frameworks */,
+				CE5156D524C17A3F00F357B9 /* Resources */,
+				CEE15C8E2539A99700D949D8 /* GoogleServicePlistFile */,
+				CE5156DB24C17A3F00F357B9 /* Embed Frameworks */,
+				CE5156DE24C17A3F00F357B9 /* Thin Binary */,
+				CE5156E124C17A3F00F357B9 /* ShellScript */,
+				E4023CAB16F1EB1AFCB955DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noon Secure";
+			productName = Runner;
+			productReference = CE5156E624C17A3F00F357B9 /* Noon Secure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6D155F25B550BB00409799 /* Altruist Secure Bangla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6D159A25B550BB00409799 /* Build configuration list for PBXNativeTarget "Altruist Secure Bangla" */;
+			buildPhases = (
+				45CF16369BD6915657B7493A /* [CP] Check Pods Manifest.lock */,
+				CE6D156125B550BB00409799 /* Run Script */,
+				CE6D156225B550BB00409799 /* Sources */,
+				CE6D158525B550BB00409799 /* Frameworks */,
+				CE6D158A25B550BB00409799 /* Resources */,
+				CE6D159525B550BB00409799 /* GoogleServicePlistFile */,
+				CE6D159625B550BB00409799 /* Thin Binary */,
+				CE6D159725B550BB00409799 /* Upload DYSM */,
+				CE6D159825B550BB00409799 /* ShellScript */,
+				ACCD6EB39B3C7B4BF440F2FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Altruist Secure Bangla";
+			productName = Runner;
+			productReference = CE6D159E25B550BB00409799 /* Altruist Secure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C146E61CF9000F007C117D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "The Chromium Authors";
+				TargetAttributes = {
+					97C146ED1CF9000F007C117D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 436U4XDQHA;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+					};
+					CE4BF4EC24C1C3EC003D7859 = {
+						DevelopmentTeam = 436U4XDQHA;
+						ProvisioningStyle = Automatic;
+					};
+					CE5156BC24C17A3F00F357B9 = {
+						DevelopmentTeam = 436U4XDQHA;
+						ProvisioningStyle = Automatic;
+					};
+					CE6D155F25B550BB00409799 = {
+						DevelopmentTeam = 436U4XDQHA;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C146E51CF9000F007C117D;
+			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C146ED1CF9000F007C117D /* AltruistSecureR3 */,
+				CE5156BC24C17A3F00F357B9 /* Noon Secure */,
+				CE4BF4EC24C1C3EC003D7859 /* Altruist Secure */,
+				CE6D155F25B550BB00409799 /* Altruist Secure Bangla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97C146EC1CF9000F007C117D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				CEAA7C0C24FFFD9300BB7599 /* Noon Secure.plist in Resources */,
+				CE4CA60A2445E1AB00713C15 /* AltuistSecureGoogleService-Info.plist in Resources */,
+				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				CECE178B24EC042800139973 /* Readme.md in Resources */,
+				CEAA7C0F24FFFD9300BB7599 /* Altruist Secure.plist in Resources */,
+				CE5156ED24C17DD700F357B9 /* Assets.xcassets in Resources */,
+				CEE15C8C2539A8FC00D949D8 /* AltuistSecureR3GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4BF50524C1C3EC003D7859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4BF50624C1C3EC003D7859 /* LaunchScreen.storyboard in Resources */,
+				CE4BF50724C1C3EC003D7859 /* AppFrameworkInfo.plist in Resources */,
+				CEAA7C0E24FFFD9300BB7599 /* Noon Secure.plist in Resources */,
+				CE4BF50824C1C3EC003D7859 /* AltuistSecureGoogleService-Info.plist in Resources */,
+				CE4BF50924C1C3EC003D7859 /* Main.storyboard in Resources */,
+				CECE178D24EC042800139973 /* Readme.md in Resources */,
+				CEAA7C1124FFFD9300BB7599 /* Altruist Secure.plist in Resources */,
+				CE4BF50A24C1C3EC003D7859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5156D524C17A3F00F357B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5156D624C17A3F00F357B9 /* LaunchScreen.storyboard in Resources */,
+				CEE15C8D2539A8FF00D949D8 /* NoonSecureGoogleService-Info.plist in Resources */,
+				CE5156D724C17A3F00F357B9 /* AppFrameworkInfo.plist in Resources */,
+				CEAA7C0D24FFFD9300BB7599 /* Noon Secure.plist in Resources */,
+				CE5156D824C17A3F00F357B9 /* AltuistSecureGoogleService-Info.plist in Resources */,
+				CE5156DA24C17A3F00F357B9 /* Main.storyboard in Resources */,
+				CECE178C24EC042800139973 /* Readme.md in Resources */,
+				CEAA7C1024FFFD9300BB7599 /* Altruist Secure.plist in Resources */,
+				CE5156EC24C17D9500F357B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6D158A25B550BB00409799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6D158B25B550BB00409799 /* LaunchScreen.storyboard in Resources */,
+				CE6D158C25B550BB00409799 /* AppFrameworkInfo.plist in Resources */,
+				CE6D158D25B550BB00409799 /* Noon Secure.plist in Resources */,
+				CE6D158E25B550BB00409799 /* AltuistSecureGoogleService-Info.plist in Resources */,
+				CE6D158F25B550BB00409799 /* Main.storyboard in Resources */,
+				CE6D159025B550BB00409799 /* Readme.md in Resources */,
+				CE6D159125B550BB00409799 /* Altruist Secure.plist in Resources */,
+				CE6D159225B550BB00409799 /* Assets.xcassets in Resources */,
+				CE6D15A125B5534300409799 /* GoogleServiceBangla-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17752DB3F2AAECDAC73FA364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noon Secure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F9C68F56878B6F4044CFFD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Altruist Secure/Pods-Altruist Secure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
+		};
+		45CF16369BD6915657B7493A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Altruist Secure Bangla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6398B754DC78AB87517C758A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AltruistSecureR3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D5F6CB1638C78F0737E6BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AltruistSecureR3/Pods-AltruistSecureR3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919934667916B031224237CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Altruist Secure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9740EEB61CF901F6004384FC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		ACCD6EB39B3C7B4BF440F2FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Altruist Secure Bangla/Pods-Altruist Secure Bangla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4BF4EE24C1C3EC003D7859 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		CE4BF50E24C1C3EC003D7859 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+		};
+		CE4BF51024C1C3EC003D7859 /* Upload DYSM */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Upload DYSM";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		CE4BF51124C1C3EC003D7859 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		CE4CA6082445E17600713C15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		CE5156BE24C17A3F00F357B9 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		CE5156DE24C17A3F00F357B9 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
+		};
+		CE5156E124C17A3F00F357B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		CE6D156125B550BB00409799 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+		CE6D159525B550BB00409799 /* GoogleServicePlistFile */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = GoogleServicePlistFile;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# Type a script or drag a script file from your workspace to insert its path.\nGOOGLE_SERVICE_INFO_PLIST_FROM=\"${PROJECT_DIR}/GoogleServiceBangla-Info.plist\"\nBUILD_APP_DIR=\"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"\nGOOGLE_SERVICE_INFO_PLIST_TO=\"${BUILD_APP_DIR}/GoogleService-Info.plist\"\ncp \"${GOOGLE_SERVICE_INFO_PLIST_FROM}\" \"${GOOGLE_SERVICE_INFO_PLIST_TO}\" \n";
+		};
+		CE6D159625B550BB00409799 /* Thin Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Thin Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
+		};
+		CE6D159725B550BB00409799 /* Upload DYSM */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Upload DYSM";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		CE6D159825B550BB00409799 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		CEE15C8A2539A29700D949D8 /* GoogleServicePlistFile */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = GoogleServicePlistFile;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# Type a script or drag a script file from your workspace to insert its path.\nGOOGLE_SERVICE_INFO_PLIST_FROM=\"${PROJECT_DIR}/AltuistSecureGoogleService-Info.plist\"\nBUILD_APP_DIR=\"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"\nGOOGLE_SERVICE_INFO_PLIST_TO=\"${BUILD_APP_DIR}/GoogleService-Info.plist\"\ncp \"${GOOGLE_SERVICE_INFO_PLIST_FROM}\" \"${GOOGLE_SERVICE_INFO_PLIST_TO}\" \n";
+		};
+		CEE15C8E2539A99700D949D8 /* GoogleServicePlistFile */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = GoogleServicePlistFile;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# Type a script or drag a script file from your workspace to insert its path.\nGOOGLE_SERVICE_INFO_PLIST_FROM=\"${PROJECT_DIR}/NoonSecureGoogleService-Info.plist\"\nBUILD_APP_DIR=\"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"\nGOOGLE_SERVICE_INFO_PLIST_TO=\"${BUILD_APP_DIR}/GoogleService-Info.plist\"\ncp \"${GOOGLE_SERVICE_INFO_PLIST_FROM}\" \"${GOOGLE_SERVICE_INFO_PLIST_TO}\" \n";
+		};
+		CEE15C8F2539A9D300D949D8 /* GoogleServicePlistFile */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = GoogleServicePlistFile;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# Type a script or drag a script file from your workspace to insert its path.\nGOOGLE_SERVICE_INFO_PLIST_FROM=\"${PROJECT_DIR}/AltuistSecureR3GoogleService-Info.plist\"\nBUILD_APP_DIR=\"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"\nGOOGLE_SERVICE_INFO_PLIST_TO=\"${BUILD_APP_DIR}/GoogleService-Info.plist\"\ncp \"${GOOGLE_SERVICE_INFO_PLIST_FROM}\" \"${GOOGLE_SERVICE_INFO_PLIST_TO}\" \n";
+		};
+		E4023CAB16F1EB1AFCB955DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noon Secure/Pods-Noon Secure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C146EA1CF9000F007C117D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE914FDF249217C900D7867E /* DeviceDetail.swift in Sources */,
+				CE1BBD2D24ED4CD000238B16 /* GlassIMEITestViewController.swift in Sources */,
+				CE7B975F24EBB75000C99558 /* Query.swift in Sources */,
+				CE7B976224EBB75000C99558 /* NetworkingError.swift in Sources */,
+				CEBD0A232448161600AC12BA /* ExBundle.swift in Sources */,
+				CEC73503243D9DD90003A0B5 /* BluetoothTest.swift in Sources */,
+				CE77E916242DCE2F0006AAC7 /* WifiTest.swift in Sources */,
+				CE7B977724EBB75000C99558 /* Request.swift in Sources */,
+				CEE515AE242DEE8A000DB5D5 /* LocationTest.swift in Sources */,
+				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				CE7B974F24EB9F0100C99558 /* APIKeys.swift in Sources */,
+				CE7B977124EBB75000C99558 /* RouterProtocol.swift in Sources */,
+				CE7B974624EB9ECC00C99558 /* LocalNotification.swift in Sources */,
+				CE7B976524EBB75000C99558 /* JSONEncryptor.swift in Sources */,
+				CE6900FF24234C3400A2FE50 /* TestKeys.swift in Sources */,
+				CE7B976E24EBB75000C99558 /* Router.swift in Sources */,
+				CE0C631C24EA62430098063C /* GlassIMEITest.swift in Sources */,
+				CE7B978224EBBC8E00C99558 /* ServerBridge.swift in Sources */,
+				CE77E91A242DCE410006AAC7 /* SensorTest.swift in Sources */,
+				CE9F273C243AFBB200918624 /* SpeakerTest.swift in Sources */,
+				CEA858412423557800A8B87B /* SimTest.swift in Sources */,
+				CE0C631E24EA62810098063C /* Constant.swift in Sources */,
+				CECE178F24EC0C5200139973 /* GlassTest.swift in Sources */,
+				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				CE77E918242DCE360006AAC7 /* SolidLineView.swift in Sources */,
+				CE7B977424EBB75000C99558 /* RequestComposer.swift in Sources */,
+				CE7B977A24EBB75000C99558 /* RequestComposerProtocol.swift in Sources */,
+				CE7B976B24EBB75000C99558 /* API.swift in Sources */,
+				CE77E913242DCE260006AAC7 /* ExDisplayTestViewController.swift in Sources */,
+				CECE178724EBF30200139973 /* QRCodeParam.swift in Sources */,
+				CE7B976824EBB75000C99558 /* HTTPMethod.swift in Sources */,
+				CE77E914242DCE260006AAC7 /* DisplayTestViewController.swift in Sources */,
+				CE46FC69243C7FD500C197BD /* HeadphoneTest.swift in Sources */,
+				CE69010124234DF700A2FE50 /* ExAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4BF4EF24C1C3EC003D7859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4BF4F024C1C3EC003D7859 /* DeviceDetail.swift in Sources */,
+				CE1BBD2F24ED4CD000238B16 /* GlassIMEITestViewController.swift in Sources */,
+				CE7B976124EBB75000C99558 /* Query.swift in Sources */,
+				CE7B976424EBB75000C99558 /* NetworkingError.swift in Sources */,
+				CE0C632024EA62810098063C /* Constant.swift in Sources */,
+				CE4BF4F124C1C3EC003D7859 /* ExBundle.swift in Sources */,
+				CE4BF4F224C1C3EC003D7859 /* BluetoothTest.swift in Sources */,
+				CE7B977924EBB75000C99558 /* Request.swift in Sources */,
+				CE4BF4F324C1C3EC003D7859 /* WifiTest.swift in Sources */,
+				CE4BF4F424C1C3EC003D7859 /* LocationTest.swift in Sources */,
+				CE7B975124EB9F0100C99558 /* APIKeys.swift in Sources */,
+				CE7B977324EBB75000C99558 /* RouterProtocol.swift in Sources */,
+				CE7B974824EB9ECC00C99558 /* LocalNotification.swift in Sources */,
+				CE7B976724EBB75000C99558 /* JSONEncryptor.swift in Sources */,
+				CE4BF4F524C1C3EC003D7859 /* AppDelegate.swift in Sources */,
+				CE7B977024EBB75000C99558 /* Router.swift in Sources */,
+				CE4BF4F624C1C3EC003D7859 /* TestKeys.swift in Sources */,
+				CE7B978424EBBC8E00C99558 /* ServerBridge.swift in Sources */,
+				CE4BF4F724C1C3EC003D7859 /* SensorTest.swift in Sources */,
+				CE4BF4F824C1C3EC003D7859 /* SpeakerTest.swift in Sources */,
+				CE4BF4F924C1C3EC003D7859 /* SimTest.swift in Sources */,
+				CE4BF4FA24C1C3EC003D7859 /* GeneratedPluginRegistrant.m in Sources */,
+				CECE179124EC0C5200139973 /* GlassTest.swift in Sources */,
+				CE4BF4FB24C1C3EC003D7859 /* SolidLineView.swift in Sources */,
+				CE4BF4FC24C1C3EC003D7859 /* ExDisplayTestViewController.swift in Sources */,
+				CE7B977624EBB75000C99558 /* RequestComposer.swift in Sources */,
+				CE7B977C24EBB75000C99558 /* RequestComposerProtocol.swift in Sources */,
+				CE7B976D24EBB75000C99558 /* API.swift in Sources */,
+				CE4BF4FD24C1C3EC003D7859 /* DisplayTestViewController.swift in Sources */,
+				CECE178924EBF30200139973 /* QRCodeParam.swift in Sources */,
+				CE7B976A24EBB75000C99558 /* HTTPMethod.swift in Sources */,
+				CE4BF4FE24C1C3EC003D7859 /* HeadphoneTest.swift in Sources */,
+				CE0C632224EA62860098063C /* GlassIMEITest.swift in Sources */,
+				CE4BF4FF24C1C3EC003D7859 /* ExAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5156BF24C17A3F00F357B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5156C024C17A3F00F357B9 /* DeviceDetail.swift in Sources */,
+				CE1BBD2E24ED4CD000238B16 /* GlassIMEITestViewController.swift in Sources */,
+				CE7B976024EBB75000C99558 /* Query.swift in Sources */,
+				CE7B976324EBB75000C99558 /* NetworkingError.swift in Sources */,
+				CE0C631F24EA62810098063C /* Constant.swift in Sources */,
+				CE5156C124C17A3F00F357B9 /* ExBundle.swift in Sources */,
+				CE5156C224C17A3F00F357B9 /* BluetoothTest.swift in Sources */,
+				CE7B977824EBB75000C99558 /* Request.swift in Sources */,
+				CE5156C324C17A3F00F357B9 /* WifiTest.swift in Sources */,
+				CE5156C424C17A3F00F357B9 /* LocationTest.swift in Sources */,
+				CE7B975024EB9F0100C99558 /* APIKeys.swift in Sources */,
+				CE7B977224EBB75000C99558 /* RouterProtocol.swift in Sources */,
+				CE7B974724EB9ECC00C99558 /* LocalNotification.swift in Sources */,
+				CE7B976624EBB75000C99558 /* JSONEncryptor.swift in Sources */,
+				CE5156C524C17A3F00F357B9 /* AppDelegate.swift in Sources */,
+				CE7B976F24EBB75000C99558 /* Router.swift in Sources */,
+				CE5156C624C17A3F00F357B9 /* TestKeys.swift in Sources */,
+				CE7B978324EBBC8E00C99558 /* ServerBridge.swift in Sources */,
+				CE5156C724C17A3F00F357B9 /* SensorTest.swift in Sources */,
+				CE5156C824C17A3F00F357B9 /* SpeakerTest.swift in Sources */,
+				CE5156C924C17A3F00F357B9 /* SimTest.swift in Sources */,
+				CE5156CA24C17A3F00F357B9 /* GeneratedPluginRegistrant.m in Sources */,
+				CECE179024EC0C5200139973 /* GlassTest.swift in Sources */,
+				CE5156CB24C17A3F00F357B9 /* SolidLineView.swift in Sources */,
+				CE5156CC24C17A3F00F357B9 /* ExDisplayTestViewController.swift in Sources */,
+				CE7B977524EBB75000C99558 /* RequestComposer.swift in Sources */,
+				CE7B977B24EBB75000C99558 /* RequestComposerProtocol.swift in Sources */,
+				CE7B976C24EBB75000C99558 /* API.swift in Sources */,
+				CE5156CD24C17A3F00F357B9 /* DisplayTestViewController.swift in Sources */,
+				CECE178824EBF30200139973 /* QRCodeParam.swift in Sources */,
+				CE7B976924EBB75000C99558 /* HTTPMethod.swift in Sources */,
+				CE5156CE24C17A3F00F357B9 /* HeadphoneTest.swift in Sources */,
+				CE0C632124EA62860098063C /* GlassIMEITest.swift in Sources */,
+				CE5156CF24C17A3F00F357B9 /* ExAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6D156225B550BB00409799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6D156325B550BB00409799 /* DeviceDetail.swift in Sources */,
+				CE6D156425B550BB00409799 /* GlassIMEITestViewController.swift in Sources */,
+				CE6D156525B550BB00409799 /* Query.swift in Sources */,
+				CE6D156625B550BB00409799 /* NetworkingError.swift in Sources */,
+				CE6D156725B550BB00409799 /* Constant.swift in Sources */,
+				CE6D156825B550BB00409799 /* ExBundle.swift in Sources */,
+				CE6D156925B550BB00409799 /* BluetoothTest.swift in Sources */,
+				CE6D156A25B550BB00409799 /* Request.swift in Sources */,
+				CE6D156B25B550BB00409799 /* WifiTest.swift in Sources */,
+				CE6D156C25B550BB00409799 /* LocationTest.swift in Sources */,
+				CE6D156D25B550BB00409799 /* APIKeys.swift in Sources */,
+				CE6D156E25B550BB00409799 /* RouterProtocol.swift in Sources */,
+				CE6D156F25B550BB00409799 /* LocalNotification.swift in Sources */,
+				CE6D157025B550BB00409799 /* JSONEncryptor.swift in Sources */,
+				CE6D157125B550BB00409799 /* AppDelegate.swift in Sources */,
+				CE6D157225B550BB00409799 /* Router.swift in Sources */,
+				CE6D157325B550BB00409799 /* TestKeys.swift in Sources */,
+				CE6D157425B550BB00409799 /* ServerBridge.swift in Sources */,
+				CE6D157525B550BB00409799 /* SensorTest.swift in Sources */,
+				CE6D157625B550BB00409799 /* SpeakerTest.swift in Sources */,
+				CE6D157725B550BB00409799 /* SimTest.swift in Sources */,
+				CE6D157825B550BB00409799 /* GeneratedPluginRegistrant.m in Sources */,
+				CE6D157925B550BB00409799 /* GlassTest.swift in Sources */,
+				CE6D157A25B550BB00409799 /* SolidLineView.swift in Sources */,
+				CE6D157B25B550BB00409799 /* ExDisplayTestViewController.swift in Sources */,
+				CE6D157C25B550BB00409799 /* RequestComposer.swift in Sources */,
+				CE6D157D25B550BB00409799 /* RequestComposerProtocol.swift in Sources */,
+				CE6D157E25B550BB00409799 /* API.swift in Sources */,
+				CE6D157F25B550BB00409799 /* DisplayTestViewController.swift in Sources */,
+				CE6D158025B550BB00409799 /* QRCodeParam.swift in Sources */,
+				CE6D158125B550BB00409799 /* HTTPMethod.swift in Sources */,
+				CE6D158225B550BB00409799 /* HeadphoneTest.swift in Sources */,
+				CE6D158325B550BB00409799 /* GlassIMEITest.swift in Sources */,
+				CE6D158425B550BB00409799 /* ExAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C146FB1CF9000F007C117D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C147001CF9000F007C117D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249021D3217E4FDB00AE95B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		249021D4217E4FDB00AE95B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA6CE0EC3E3D5D06BCB986D /* Pods-AltruistSecureR3.profile.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconR3;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = "";
+				FLUTTER_BUILD_DIR = "";
+				FLUTTER_BUILD_NAME = "";
+				FLUTTER_BUILD_NUMBER = "";
+				FLUTTER_FRAMEWORK_DIR = "";
+				FLUTTER_TARGET = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = Runner/AltruistSecureR3.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecureR3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureR3;
+				PRODUCT_NAME = "Altruist Secure-R3F";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		97C147031CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C147041CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C147061CF9000F007C117D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1430127A12DDA4B75B37BB /* Pods-AltruistSecureR3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconR3;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = /Users/user/Downloads/insuranceflutter;
+				FLUTTER_BUILD_DIR = build;
+				FLUTTER_BUILD_NAME = 1.0.0;
+				FLUTTER_BUILD_NUMBER = 1;
+				FLUTTER_FRAMEWORK_DIR = /Users/user/Downloads/flutter/bin/cache/artifacts/engine/ios;
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = lib/main.dart;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = Runner/AltruistSecureR3.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecureR3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureR3;
+				PRODUCT_NAME = "Altruist Secure-R3F";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		97C147071CF9000F007C117D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F4DBED025DB31532964B2B /* Pods-AltruistSecureR3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconR3;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = "";
+				FLUTTER_BUILD_DIR = "";
+				FLUTTER_BUILD_NAME = "";
+				FLUTTER_BUILD_NUMBER = "";
+				FLUTTER_FRAMEWORK_DIR = "";
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = Runner/AltruistSecureR3.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecureR3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureR3;
+				PRODUCT_NAME = "Altruist Secure-R3F";
+				PROVISIONING_PROFILE_SPECIFIER = AltruistSecureR3Dist;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CE4BF51324C1C3EC003D7859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730E650E0539CEBF1FEBAAB4 /* Pods-Altruist Secure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MTNDeviceInsuraneAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = /Users/user/Documents/iPhoneHealth/insuranceflutter;
+				FLUTTER_BUILD_DIR = build;
+				FLUTTER_BUILD_NAME = 1.0.0;
+				FLUTTER_BUILD_NUMBER = 1;
+				FLUTTER_FRAMEWORK_DIR = /Users/user/Downloads/flutter/bin/cache/artifacts/engine/ios;
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = lib/main.dart;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Runner/Altruist Secure.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.4;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureFlutter;
+				PRODUCT_NAME = "MTN Device Insurance";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CE4BF51424C1C3EC003D7859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C4681A992F05787D1EF011 /* Pods-Altruist Secure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MTNDeviceInsuraneAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = "";
+				FLUTTER_BUILD_DIR = "";
+				FLUTTER_BUILD_NAME = "";
+				FLUTTER_BUILD_NUMBER = "";
+				FLUTTER_FRAMEWORK_DIR = "";
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Runner/Altruist Secure.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.4;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureFlutter;
+				PRODUCT_NAME = "MTN Device Insurance";
+				PROVISIONING_PROFILE_SPECIFIER = AltruistSecureDist;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CE4BF51524C1C3EC003D7859 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F742C8C334CAEBDB08DD8164 /* Pods-Altruist Secure.profile.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = MTNDeviceInsuraneAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = "";
+				FLUTTER_BUILD_DIR = "";
+				FLUTTER_BUILD_NAME = "";
+				FLUTTER_BUILD_NUMBER = "";
+				FLUTTER_FRAMEWORK_DIR = "";
+				FLUTTER_TARGET = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Runner/Altruist Secure.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.4;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.altruistSecureFlutter;
+				PRODUCT_NAME = "MTN Device Insurance";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		CE5156E324C17A3F00F357B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7B978624EBE10200C99558 /* NoonSecureDebug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconNoonSecure;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = /Users/user/Downloads/insuranceflutter;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Runner/Noon Secure.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D NoonSecure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.noonSecure;
+				PRODUCT_NAME = "Noon Secure";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CE5156E424C17A3F00F357B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98041CC5B434E4D67A2C61FA /* Pods-Noon Secure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconNoonSecure;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Runner/Noon Secure.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D NoonSecure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.noonSecure;
+				PRODUCT_NAME = "Noon Secure";
+				PROVISIONING_PROFILE_SPECIFIER = NoonSecureDist;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CE5156E524C17A3F00F357B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC8261F81172DE2E2419E78 /* Pods-Noon Secure.profile.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconNoonSecure;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Runner/Noon Secure.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D NoonSecure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.insurance.noonSecure;
+				PRODUCT_NAME = "Noon Secure";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		CE6D159B25B550BB00409799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C621ED2FDC2F8D724EBA2F /* Pods-Altruist Secure Bangla.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAltruistSecure;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = /Users/user/Documents/iPhoneHealth/insuranceflutter;
+				FLUTTER_BUILD_DIR = build;
+				FLUTTER_BUILD_NAME = 1.0.0;
+				FLUTTER_BUILD_NUMBER = 1;
+				FLUTTER_FRAMEWORK_DIR = /Users/user/Downloads/flutter/bin/cache/artifacts/engine/ios;
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = lib/main.dart;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "AltruistSecureBangla-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecureBangal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.altruists-secure-bangla";
+				PRODUCT_NAME = "Altruist Secure";
+				PROVISIONING_PROFILE_SPECIFIER = AltruistSecureBangla_DevProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		CE6D159C25B550BB00409799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C374C3368A4F4919CB2C225 /* Pods-Altruist Secure Bangla.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAltruistSecure;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = "";
+				FLUTTER_BUILD_DIR = "";
+				FLUTTER_BUILD_NAME = "";
+				FLUTTER_BUILD_NUMBER = "";
+				FLUTTER_FRAMEWORK_DIR = "";
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "AltruistSecureBangla-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecureBangal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.altruists-secure-bangla";
+				PRODUCT_NAME = "Altruist Secure";
+				PROVISIONING_PROFILE_SPECIFIER = AltruistSecureBangla_Dist;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		CE6D159D25B550BB00409799 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAltruistSecure;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 436U4XDQHA;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = "";
+				FLUTTER_BUILD_DIR = "";
+				FLUTTER_BUILD_NAME = "";
+				FLUTTER_BUILD_NUMBER = "";
+				FLUTTER_FRAMEWORK_DIR = "";
+				FLUTTER_ROOT = /Users/user/Downloads/flutter;
+				FLUTTER_TARGET = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				INFOPLIST_FILE = "AltruistSecureBangla-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D AltruistSecureBangal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.altruists-secure-bangla";
+				PRODUCT_NAME = "Altruist Secure";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97C146E91CF9000F007C117D /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147031CF9000F007C117D /* Debug */,
+				97C147041CF9000F007C117D /* Release */,
+				249021D3217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "AltruistSecureR3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147061CF9000F007C117D /* Debug */,
+				97C147071CF9000F007C117D /* Release */,
+				249021D4217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4BF51224C1C3EC003D7859 /* Build configuration list for PBXNativeTarget "Altruist Secure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4BF51324C1C3EC003D7859 /* Debug */,
+				CE4BF51424C1C3EC003D7859 /* Release */,
+				CE4BF51524C1C3EC003D7859 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5156E224C17A3F00F357B9 /* Build configuration list for PBXNativeTarget "Noon Secure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5156E324C17A3F00F357B9 /* Debug */,
+				CE5156E424C17A3F00F357B9 /* Release */,
+				CE5156E524C17A3F00F357B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6D159A25B550BB00409799 /* Build configuration list for PBXNativeTarget "Altruist Secure Bangla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6D159B25B550BB00409799 /* Debug */,
+				CE6D159C25B550BB00409799 /* Release */,
+				CE6D159D25B550BB00409799 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97C146E61CF9000F007C117D /* Project object */;
+}

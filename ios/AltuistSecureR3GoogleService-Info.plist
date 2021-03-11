@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1053311581044-ou67ggm875e4d1snsisicdcma4qqt660.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1053311581044-ou67ggm875e4d1snsisicdcma4qqt660</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1053311581044-tjmkhqedeqtonlt952nfcq6p4msk7b1q.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDrV7fr6h9ZeFGsNnLl67oKLNOrHPaAqlI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1053311581044</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.insurance.altruistSecureR3</string>
+	<key>PROJECT_ID</key>
+	<string>r3-factory-altruist</string>
+	<key>STORAGE_BUCKET</key>
+	<string>r3-factory-altruist.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1053311581044:ios:d6644614ae998687334a21</string>
+	<key>DATABASE_URL</key>
+	<string>https://r3-factory-altruist.firebaseio.com</string>
+</dict>
+</plist>

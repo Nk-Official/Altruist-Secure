@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "842615401293",
+    "project_id": "altruist--nigeria",
+    "storage_bucket": "altruist--nigeria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842615401293:android:1c894c3d2c448061eea504",
+        "android_client_info": {
+          "package_name": "com.app.altruist_secure_nigeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842615401293-lq9di2fkl0tlnmhrs1oc5c95elqpm4tj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.altruist_secure_nigeria",
+            "certificate_hash": "4beefa784b2b8a9c7cf991dfac539721282996ad"
+          }
+        },
+        {
+          "client_id": "842615401293-pmfb59jcd70gppabh1f54g1j1l4nn1d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfjwKF0wVHr_ttjKmxOBjYHuzOY_cyKMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842615401293-pmfb59jcd70gppabh1f54g1j1l4nn1d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

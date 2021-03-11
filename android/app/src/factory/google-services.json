@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1053311581044",
+    "firebase_url": "https://r3-factory-altruist.firebaseio.com",
+    "project_id": "r3-factory-altruist",
+    "storage_bucket": "r3-factory-altruist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053311581044:android:9c44df7da08bc23a334a21",
+        "android_client_info": {
+          "package_name": "com.r3factory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053311581044-dsr015mv2ab19ch7doms0rpiiavdt5dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.r3factory",
+            "certificate_hash": "de5e630e787f2c34033457da7d5cfa09a6df650c"
+          }
+        },
+        {
+          "client_id": "1053311581044-ghmodq7k9mtgo769k3m92eqjuehoc6cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrZM8asbL-gnfbbBkovbP3l7tEBVIu-bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053311581044-ghmodq7k9mtgo769k3m92eqjuehoc6cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

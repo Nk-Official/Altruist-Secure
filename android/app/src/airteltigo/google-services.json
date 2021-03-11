@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "404750618663",
+    "firebase_url": "https://airteltigo-f65a2.firebaseio.com",
+    "project_id": "airteltigo-f65a2",
+    "storage_bucket": "airteltigo-f65a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404750618663:android:f98041796de195eb653e02",
+        "android_client_info": {
+          "package_name": "com.app.airtel_tigo_secure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404750618663-k9u5f34f5o0k0338q59943b8u19voja2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.airtel_tigo_secure",
+            "certificate_hash": "4beefa784b2b8a9c7cf991dfac539721282996ad"
+          }
+        },
+        {
+          "client_id": "404750618663-7vfmk1nk3oegj5mhl7fcp0r07p3teqs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwkVOtYXcMx9fs1xfdBUu427fITsWTK8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404750618663-7vfmk1nk3oegj5mhl7fcp0r07p3teqs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
